@@ -4,3 +4,14 @@
   font-family: "Arial";
   font-size: 21px;
 }
+
+/*Page Header*/
+.page-header {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+/*Page Main*/
+
+
+/*Page Footer*/
