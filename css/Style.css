@@ -25,10 +25,10 @@ header {
 
 .bottom-header .navigation {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   margin: 5px 15px;
   padding: 25px 0px 0px 0px;
-  width: 600px;
+  width: 700px;
   float: right;
   text-align: center;
   list-style: none;
