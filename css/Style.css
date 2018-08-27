@@ -14,8 +14,8 @@ header {
 }
 
 .top-header .logo {
-  margin: 20px 10px 10px 20px;
-  padding: 2px 11px 2px 11px;
+  margin: 10px;
+  padding: 2px 11px;
 }
 
 .bottom-header {
@@ -59,6 +59,25 @@ body {
   background-color: #222;
 }
 
+.land {
+  fill: #CCCCCC;
+  fill-opacity: 1;
+  stroke:white;
+  stroke-opacity: 1;
+  stroke-width:0.5;
+  transition: 0.35s;
+}
+
+.land:hover {
+  fill: #79ff58;
+}
+
+svg {
+  width: 445px;
+  height: 425px;
+}
+
+
 /*Page Footer*/
 
 /*Media Queries*/
@@ -67,8 +86,15 @@ body {
     font-size: 16px;
   }
 
+  .top-header, .bottom-header {
+    width: auto;
+  }
+
   .bottom-header .navigation {
     margin: 5px 0px;
-    width: 100%;
+  }
+
+  .page-main img {
+    max-width: 100%;
   }
 }
