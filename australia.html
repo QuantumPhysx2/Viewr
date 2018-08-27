@@ -18,9 +18,19 @@
     <div class="bottom-header">
       <ul class="navigation">
         <li><a href="index.html">Home</a></li>
-        <ul><a href="#">Countries</a>
-          <li><a href="australia.html" id="active">Australia</a></li>
-        </ul>
+
+        <div class="drop-down">
+          <button class="drop-btn" onclick="openDropMenu()">Countries</button>
+          <div class="drop-content" id="drop-category">
+            <li><a href="australia.html" id="active">Australia</a></li>
+            <li><a href="usa.html">United States</a></li>
+            <li><a href="#">Canada</a></li>
+            <li><a href="#">Mexico</a></li>
+            <li><a href="#">North Asia</a></li>
+            <li><a href="#">South Asia</a></li>
+          </div>
+        </div>
+
         <li><a href="#">About Us</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
@@ -29,6 +39,7 @@
 
   <main>
     <div class="page-main">
+      <h1 class="current-country">Australia</h1>
       <div class="australia-map">
         <!--World Bitmap Provided by: https://www.amcharts.com/svg-maps/?map=australia-->
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
