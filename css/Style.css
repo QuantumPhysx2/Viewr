@@ -59,6 +59,12 @@ body {
   background-color: #222;
 }
 
+main {
+  margin: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
 .land {
   fill: #CCCCCC;
   fill-opacity: 1;
