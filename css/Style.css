@@ -7,6 +7,10 @@
 
 /*Page Header*/
 .page-header {
+  max-width: 100%;
+}
+
+.page-header ul {
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
