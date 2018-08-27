@@ -6,13 +6,18 @@
 }
 
 /*Page Header*/
+header {
+
+}
+
 .page-header {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   max-width: 100%;
 }
 
 .page-header ul {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+
 }
 
 /*Page Main*/
