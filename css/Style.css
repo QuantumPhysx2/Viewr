@@ -57,7 +57,7 @@ header {
 
 /*Page Main*/
 body {
-  background-color: #222;
+  background-color: #ffefc9;
 }
 
 main {
@@ -81,6 +81,12 @@ main {
   color: #fff;
 }
 
+canvas {
+  display: block;
+  background: #222;
+  border: 1px solid #ccc;
+}
+
 .drop-btn {
   width: 100%;
   border-radius: 2px;
@@ -100,10 +106,6 @@ main {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   background-color: #545251;
-}
-
-.right-main h1, h2 {
-  color: #fff;
 }
 
 .land {
@@ -137,7 +139,6 @@ main {
 g {
   width: auto;
 }
-
 
 /*Page Footer*/
 
