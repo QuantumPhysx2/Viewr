@@ -115,8 +115,10 @@ canvas {
   height: 758px;
 }
 
+
 g {
   width: auto;
+  cursor: pointer;
 }
 
 /*Page Footer*/
