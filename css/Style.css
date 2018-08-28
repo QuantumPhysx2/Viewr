@@ -54,10 +54,9 @@ header {
   list-style: none;
 }
 
-
 /*Page Main*/
 body {
-  background-color: #ffefc9;
+  background-color: #222;
 }
 
 main {
@@ -78,6 +77,10 @@ main {
 }
 
 .left-main a {
+  color: #fff;
+}
+
+.right-main h1, h2 {
   color: #fff;
 }
 
@@ -141,23 +144,24 @@ g {
 }
 
 /*Page Footer*/
+footer {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  background-color: #ebe9e7;
+  border-top: 1px solid #52adff;
+}
 
+.top-footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 10px 5px;
+  padding: 10px 5px;
+}
 
-/*Media Queries*/
-@media only screen and (max-width: 320px) {
-  * {
-    font-size: 16px;
-  }
-
-  .top-header, .bottom-header {
-    width: auto;
-  }
-
-  .bottom-header .navigation {
-    margin: 5px 0px;
-  }
-
-  .page-main img {
-    max-width: 100%;
-  }
+.bottom-footer {
+  display: grid;
+  grid-template-rows: 1fr;
+  margin: 10px 0px;
+  padding: 10px 0px;
 }
