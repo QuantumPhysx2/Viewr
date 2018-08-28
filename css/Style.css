@@ -98,11 +98,11 @@ main {
 
 .show {
   display: grid;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   background-color: #545251;
 }
 
-.right-main h1 {
+.right-main h1, h2 {
   color: #fff;
 }
 

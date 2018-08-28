@@ -1,20 +1,13 @@
 // --- On Mouse Over ---
 // Mouse over script
-var elements = document.getElementsById("hidden");
+var countries = ["Australia"];
 
-for (var i = 0; i < elements.length; i++) {
-  elements[i].onmouseover = mouseOver;
-  elements[i].onmouseout = mouseOut;
+function mouseOver() {
+  document.getElementById("name").innerHTML = "["+ countries[0] +"]" ;
 }
 
-function mouseOver(element) {
-  element.style.color = "red";
-  document.getElementById("hidden").innerHTML = "Over";
-}
-
-function mouseOut(element) {
-  element.style.color = "blue";
-  document.getElementById("hidden").innerHTML = "Out";
+function mouseOut() {
+  document.getElementById("name").innerHTML = "[Country Name]" ;
 }
 
 // --- On Click Events ---
