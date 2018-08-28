@@ -1,9 +1,8 @@
 // --- On Mouse Over ---
 // Mouse over script
-var countries = ["Australia"];
-
 function mouseOver() {
-  document.getElementById("name").innerHTML = "["+ countries[0] +"]" ;
+  var gimble = this.title;
+  document.getElementById("name").innerHTML = "["+ gimble +"]" ;
 }
 
 function mouseOut() {
