@@ -25,10 +25,10 @@ header {
 
 .bottom-header .navigation {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin: 5px 15px;
   padding: 25px 0px 0px 0px;
-  width: 725px;
+  width: 500px;
   float: right;
   text-align: center;
   list-style: none;
@@ -36,26 +36,6 @@ header {
 
 #active {
   color: #0f8be3;
-}
-
-.drop-down {
-  width: 200px;
-}
-
-.drop-btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-.drop-content {
-  display: none;
-  background-color: #f1f1f1;
-  z-index: 1;
-}
-
-.show {
-  display:block;
 }
 
 .bottom-header .navigation a {
@@ -74,18 +54,54 @@ header {
   list-style: none;
 }
 
+
 /*Page Main*/
 body {
   background-color: #222;
 }
 
 main {
+  display: grid;
+  grid-template-columns: 250px 1fr;
   margin: 25px;
   padding: 10px;
   text-align: center;
 }
 
-.page-main h1 {
+.left-main li {
+  list-style: none;
+}
+
+.left-main a {
+  color: #fff;
+}
+
+
+.drop-down {
+  width: 200px;
+}
+
+.drop-btn {
+  width: 150px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.drop-content {
+  display: none;
+  z-index: 1;
+}
+
+.drop-content li {
+  padding: 5px 0px;
+}
+
+.show {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.right-main h1 {
   color: #fff;
 }
 
@@ -103,8 +119,12 @@ main {
 }
 
 svg {
-  width: 445px;
-  height: 425px;
+  width: 1010px;
+  height: 660px;
+}
+
+g {
+  width: auto;
 }
 
 
