@@ -18,19 +18,6 @@
     <div class="bottom-header">
       <ul class="navigation">
         <li><a href="index.html">Home</a></li>
-
-        <div class="drop-down">
-          <button class="drop-btn" onclick="openDropMenu()">Countries</button>
-          <div class="drop-content" id="drop-category">
-            <li><a href="australia.html">Australia</a></li>
-            <li><a href="usa.html" id="active">United States</a></li>
-            <li><a href="#">Canada</a></li>
-            <li><a href="#">Mexico</a></li>
-            <li><a href="#">North Asia</a></li>
-            <li><a href="#">South Asia</a></li>
-          </div>
-        </div>
-
         <li><a href="#">About Us</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
@@ -38,7 +25,21 @@
   </header>
 
   <main>
-    <div class="page-main">
+    <div class="left-main">
+      <div class="drop-down">
+        <button class="drop-btn" onclick="openDropMenu()">World Map</button>
+        <div class="drop-content" id="drop-category">
+          <li><a href="australia.html">Australia</a></li>
+          <li><a href="usa.html" id="active">United States</a></li>
+          <li><a href="#">Canada</a></li>
+          <li><a href="#">Mexico</a></li>
+          <li><a href="#">North Asia</a></li>
+          <li><a href="#">South Asia</a></li>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-main">
       <h1 class="current-country">United States of America</h1>
 
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">

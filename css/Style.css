@@ -76,7 +76,6 @@ main {
   color: #fff;
 }
 
-
 .drop-down {
   width: 200px;
 }
@@ -99,6 +98,7 @@ main {
 .show {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
+  background-color: #545251;
 }
 
 .right-main h1 {
