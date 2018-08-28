@@ -106,6 +106,10 @@ main {
   color: #fff;
 }
 
+.right-main h2 {
+  color: yellow;
+}
+
 .land {
   fill: #CCCCCC;
   fill-opacity: 1;
@@ -127,6 +131,11 @@ main {
 #australia-map {
   width: 443px;
   height: 415px;
+}
+
+#usa-map {
+  width: 1100px;
+  height: 758px;
 }
 
 g {
