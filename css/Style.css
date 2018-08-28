@@ -18,25 +18,6 @@ header {
   padding: 2px 11px;
 }
 
-.top-header .navigation {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 5px 15px;
-  padding: 50px 0px 10px 0px;
-  width: 500px;
-  float: right;
-  text-align: center;
-  list-style: none;
-}
-
-.top-header .navigation a {
-  margin: auto 10px;
-  padding: 8px 10px;
-  color: #222;
-  text-decoration: none;
-  transition: 0.35s ease;
-}
-
 #active {
   color: #0f8be3;
 }
@@ -66,6 +47,12 @@ main {
 
 .left-main a {
   color: #fff;
+}
+
+.right-main {
+  margin: 0px 0px 0px 50px;
+  background-color: #292e33;
+  border-radius: 3px;
 }
 
 .right-main h1, h2 {
