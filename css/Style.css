@@ -68,6 +68,11 @@ main {
   text-align: center;
 }
 
+.left-main {
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
 .left-main li {
   list-style: none;
 }
@@ -76,12 +81,8 @@ main {
   color: #fff;
 }
 
-.drop-down {
-  width: 200px;
-}
-
 .drop-btn {
-  width: 150px;
+  width: 100%;
   border-radius: 2px;
   cursor: pointer;
 }
@@ -118,9 +119,14 @@ main {
   fill: #79ff58;
 }
 
-svg {
+#world-map {
   width: 1010px;
   height: 660px;
+}
+
+#australia-map {
+  width: 443px;
+  height: 415px;
 }
 
 g {
