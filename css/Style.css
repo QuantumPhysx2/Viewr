@@ -52,6 +52,7 @@ main {
 .right-main {
   margin: 0px 0px 0px 50px;
   background-color: #292e33;
+  border: 1px solid #fff;
   border-radius: 3px;
 }
 
