@@ -68,6 +68,7 @@ main {
 }
 
 .left-main {
+  min-height: 625px;
   border: 1px solid #fff;
   border-radius: 3px;
 }
@@ -152,16 +153,16 @@ footer {
   border-top: 1px solid #52adff;
 }
 
-.top-footer {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 10px 5px;
-  padding: 10px 5px;
-}
-
 .bottom-footer {
   display: grid;
   grid-template-rows: 1fr;
   margin: 10px 0px;
   padding: 10px 0px;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 320px) {
+  .bottom-footer p {
+    font-size: 13px;
+  }
 }
