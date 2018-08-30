@@ -175,8 +175,23 @@ footer {
     padding: 5px;
   }
 
-  .top-header li:nth-child(1), li:nth-child(2) {
+  .navigation li:nth-child(1),
+  .navigation li:nth-child(2) {
     border-bottom: 1px solid #222;
+  }
+
+  main {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .left-main,
+  .right-main {
+    margin: 5px;
+    max-width: 300px;
+    overflow: hidden; /*REPLACE ME -- Fix by implementing map controls with side scroll*/
   }
 
   .bottom-footer p {
