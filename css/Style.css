@@ -13,6 +13,25 @@ header {
   border-radius: 0px 0px 1px 1px;
 }
 
+.top-header .navigation {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 5px 15px;
+  padding: 50px 0px 10px 0px;
+  width: 500px;
+  float: right;
+  text-align: center;
+  list-style: none;
+}
+
+.top-header .navigation a {
+  margin: auto 10px;
+  padding: 8px 10px;
+  color: #222;
+  text-decoration: none;
+  transition: 0.35s ease;
+}
+
 .top-header .logo {
   margin: 10px;
   padding: 2px 11px;
@@ -139,6 +158,27 @@ footer {
 
 /*Media Queries*/
 @media only screen and (max-width: 320px) {
+  .top-header .logo {
+    margin: 10px 36px;
+  }
+
+  .top-header .navigation {
+    width: 175px;
+    margin: 5px;
+    padding: 10px 70px 10px 65px;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-top: 1px solid #222;
+  }
+
+  .top-header li {
+    padding: 5px;
+  }
+
+  .top-header li:nth-child(1), li:nth-child(2) {
+    border-bottom: 1px solid #222;
+  }
+
   .bottom-footer p {
     font-size: 13px;
   }
