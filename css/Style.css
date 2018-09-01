@@ -64,7 +64,6 @@ main button {
 }
 
 .left-main {
-  min-height: 680px;
   border: 1px solid #fff;
   border-radius: 3px;
 }
@@ -267,10 +266,6 @@ footer {
   .right-main {
     margin: 0px 5px;
     padding: 0px;
-    max-width: 590px;
-  }
-
-  #world-map {
     width: 590px;
   }
 }
