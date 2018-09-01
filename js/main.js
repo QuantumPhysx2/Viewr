@@ -34,3 +34,15 @@ document.addEventListener("click", function() {
     }
   }
 });
+
+
+// Map movement controls logic
+// Get current pointer coordinates (X and Y)
+// If pointer.X is moving RIGHT (positive)...
+// ...then change transform: translateX(+x) where x is the pixel value
+// ...elif moving LEFT (negative)...
+// ...then change transform: translateX(-x)
+// If pointer.Y is moving DOWN...
+// ...then change transform: translateY(+Y)
+// ...elif pointer is moving UP...
+// ...then change transform: translateY(-Y)
