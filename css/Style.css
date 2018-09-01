@@ -157,6 +157,54 @@ footer {
 }
 
 /*Media Queries*/
+/*Laptops*/
+@media (max-width: 1024px) and (min-width: 769px) {
+  * {
+    background-color: red;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 321px) {
+
+  header {
+    display: block;
+    grid-template-rows: none;
+  }
+
+  .top-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .top-header .navigation {
+    margin: 45px 0px 35px 0px;
+    padding: 5px 0px;
+    max-width: 485px;
+    height: 25px;
+  }
+
+  main {
+    margin: 5px 2px;
+    padding: 2px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .left-main {
+    width: 160px;
+  }
+
+  .right-main {
+    margin: 0px 5px;
+    padding: 0px;
+    max-width: 590px;
+  }
+
+  #world-map {
+    width: 590px;
+  }
+}
+
+/*Mobile*/
 @media only screen and (max-width: 320px) {
   .top-header .logo {
     margin: 10px 36px;
@@ -191,7 +239,7 @@ footer {
   .right-main {
     margin: 5px;
     max-width: 300px;
-    overflow: hidden; /*REPLACE ME -- Fix by implementing map controls with side scroll*/
+    overflow: hidden;
   }
 
   .bottom-footer p {
