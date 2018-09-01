@@ -153,50 +153,54 @@ footer {
 }
 
 .month {
-    padding: 70px 25px;
-    background: #52adff;
+  padding: 70px 25px;
+  background: #52adff;
 }
 
 .month h1 {
-	font-size: 19px;
+  font-size: 19px;
 }
 
 .month ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .month ul li {
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
-.month #prev {
-    float: left;
+#prev {
+  float: left;
 }
 
-.month #next {
-    float: right;
+.prev-month, .next-month {
+  cursor: pointer;
+}
+
+#next {
+  float: right;
 }
 
 .weekdays {
-    margin: 0;
-    padding: 10px 0;
-    background-color: #ddd;
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
 }
 
 .weekdays ul li {
-    display: inline-block;
-    width: 13.6%;
-    color: #666;
-    text-align: center;
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
 }
 
 .days {
-    padding: 10px 0;
-    background: #eee;
-    margin: 0;
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
 }
 
 .days ul li {
@@ -209,28 +213,24 @@ footer {
   list-style-type: none;
   font-size: 17px;
   color: #222;
-  /*
-  list-style-type: none;
-  display: inline-block;
-  width: 13.6%;
-  text-align: center;
-  margin-bottom: 5px;
-  font-size:12px;
-  color: #777;
-  */
 }
 
 .days ul li .active {
-    padding: 5px;
-    background: #52adff;
-    color: white;
+  padding: 5px;
+  background: #52adff;
+  color: white;
 }
 
 /*Media Queries*/
 /*Laptops (1024px) IN PROGRESS*/
 @media (max-width: 1024px) and (min-width: 769px) {
-  * {
-    background-color: red;
+  main {
+    margin: 5px;
+    padding: 2px;
+  }
+
+  .right-main {
+    margin-left: 8px;
   }
 }
 
