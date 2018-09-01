@@ -235,38 +235,140 @@ footer {
 }
 
 /*Tablets (768px)*/
-@media (max-width: 768px) and (min-width: 321px) {
-  header {
-    display: block;
-    grid-template-rows: none;
-  }
-
-  .top-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+@media (max-width: 768px) and (min-width: 426px) {
+  .top-header .logo {
+    margin: 10px 55px 10px 55px;
   }
 
   .top-header .navigation {
-    margin: 45px 0px 35px 0px;
-    padding: 5px 0px;
-    max-width: 485px;
-    height: 25px;
+    width: 175px;
+    margin: 5px;
+    padding: 10px 95px 10px 65px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .top-header li {
+    padding: 5px;
+  }
+
+  .navigation li:nth-child(1),
+  .navigation li:nth-child(2) {
+    border-bottom: 1px solid #222;
   }
 
   main {
-    margin: 5px 2px;
-    padding: 2px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 290px 1fr;
+    grid-template-columns: 1fr;
+    margin: 1px;
+    padding: 1px;
   }
 
   .left-main {
-    width: 160px;
+    height: 280px;
   }
 
+  .left-main,
   .right-main {
-    margin: 0px 5px;
-    padding: 0px;
-    width: 590px;
+    margin: 1px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .bottom-footer p {
+    font-size: 13px;
+  }
+}
+
+/*Mobile (425px)*/
+@media (max-width: 425px) and (min-width: 376px) {
+  .top-header .logo {
+    margin: 10px 92px 10px 85px;
+  }
+
+  .top-header .navigation {
+    width: 175px;
+    margin: 5px;
+    padding: 10px 120px 10px 65px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .top-header li {
+    padding: 5px;
+  }
+
+  .navigation li:nth-child(1),
+  .navigation li:nth-child(2) {
+    border-bottom: 1px solid #222;
+  }
+
+  main {
+    grid-template-rows: 290px 1fr;
+    grid-template-columns: 1fr;
+    margin: 1px;
+    padding: 1px;
+  }
+
+  .left-main {
+    height: 280px;
+  }
+
+  .left-main,
+  .right-main {
+    margin: 1px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .bottom-footer p {
+    font-size: 13px;
+  }
+}
+
+/*Mobile (375px)*/
+@media (max-width: 375px) and (min-width: 321px) {
+  .top-header .logo {
+    margin: 10px 55px 10px 55px;
+  }
+
+  .top-header .navigation {
+    width: 175px;
+    margin: 5px;
+    padding: 10px 95px 10px 65px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .top-header li {
+    padding: 5px;
+  }
+
+  .navigation li:nth-child(1),
+  .navigation li:nth-child(2) {
+    border-bottom: 1px solid #222;
+  }
+
+  main {
+    grid-template-rows: 290px 1fr;
+    grid-template-columns: 1fr;
+    margin: 1px;
+    padding: 1px;
+  }
+
+  .left-main {
+    height: 280px;
+  }
+
+  .left-main,
+  .right-main {
+    margin: 1px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .bottom-footer p {
+    font-size: 13px;
   }
 }
 
@@ -295,16 +397,16 @@ footer {
   }
 
   main {
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 290px 1fr;
     grid-template-columns: 1fr;
-    margin: 5px;
-    padding: 5px;
+    margin: 1px;
+    padding: 1px;
   }
 
   .left-main,
   .right-main {
-    margin: 5px;
-    max-width: 300px;
+    margin: 1px;
+    max-width: 315px;
     overflow: hidden;
   }
 
