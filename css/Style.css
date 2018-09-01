@@ -11,6 +11,7 @@ header {
   grid-template-rows: 1fr;
   background: #fff;
   border-radius: 0px 0px 1px 1px;
+  border-bottom: 3px solid #52adff;
 }
 
 .top-header .navigation {
@@ -157,15 +158,15 @@ footer {
 }
 
 /*Media Queries*/
-/*Laptops*/
+/*Laptops (1024px) IN PROGRESS*/
 @media (max-width: 1024px) and (min-width: 769px) {
   * {
     background-color: red;
   }
 }
 
+/*Tablets (768px)*/
 @media (max-width: 768px) and (min-width: 321px) {
-
   header {
     display: block;
     grid-template-rows: none;
@@ -204,7 +205,7 @@ footer {
   }
 }
 
-/*Mobile*/
+/*Mobile (320px)*/
 @media only screen and (max-width: 320px) {
   .top-header .logo {
     margin: 10px 36px;
