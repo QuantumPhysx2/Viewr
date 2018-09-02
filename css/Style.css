@@ -136,6 +136,11 @@ g {
   cursor: pointer;
 }
 
+.overlay {
+  color: #fff;
+  visibility: hidden;
+}
+
 /*Page Footer*/
 footer {
   width: 100%;

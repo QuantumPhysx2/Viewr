@@ -1,6 +1,6 @@
 // Mouse over script
+// FIX this
 function mouseOver() {
-  // FIX this
   // gimble == Retrieve svg 'title' property
   var gimble = this.title;
   // Change current element with title
@@ -11,7 +11,7 @@ function mouseOut() {
   document.getElementById("name").innerHTML = "[Country Name]" ;
 }
 
-// Drop down script
+// Drop down script (credit to StackOverflow and Codepen)
 document.addEventListener("click", function() {
   // Retrieve element by #id and override the 'show' .class properties
   document.getElementById("drop-category").classList.toggle("show-menu");
@@ -26,7 +26,6 @@ document.addEventListener("click", function() {
       for (i = 0; i < dropdowns.length; i++) {
         // Define variable which appends the iterable object until max amount
         var openDropDown = dropdowns[i];
-
         if (openDropDown.classList.contains("show-menu")) {
           openDropDown.classList.remove("show-menu");
         }
@@ -34,6 +33,11 @@ document.addEventListener("click", function() {
     }
   }
 });
+
+function triggerPopUp() {
+  document.getElementById("AU-Trigger");
+  alert("[Temporary] Current population: 244,500 | Growth rate: 20%");
+}
 
 
 // Map movement controls logic
