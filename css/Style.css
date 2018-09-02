@@ -151,8 +151,18 @@ g {
 .modal-content {
   margin: 15% auto;
   padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
   border: 1px solid #222;
+  border-radius: 4px;
   width: 80%;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #222;
+  color: #fff;
 }
 
 .close {

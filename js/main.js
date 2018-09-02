@@ -1,5 +1,6 @@
 // Variables
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var year = ["2018"];
 // HTML has set to index[0]. JS to start cycling through 1-11
 var index = 1;
 
@@ -31,7 +32,16 @@ function nextMonth() {
   // Elif the index reaches December...
   } else if (index == months.length) {
     // ...Reset index to zero to repeat cycle
+    document.getElementById("year").innerHTML = year++;   // FIX ME -- Currently changing on second year
     index = 0;
+  }
+}
+
+document.onkeydown = function(evt) {
+  // If corresponding key value is pressed...
+  if (evt.keyCode == 27) {
+    // ...Change css property
+    modal.style.display = "none";
   }
 }
 
@@ -65,6 +75,7 @@ document.addEventListener("click", function() {
   */
 });
 
+// Modal functions
 function triggerPopUp() {
   modal.style.display = "block";
 }
