@@ -1,10 +1,10 @@
 // Mouse over script
 // FIX this
 function mouseOver() {
-  // gimble == Retrieve svg 'title' property
-  var gimble = this.title;
+  // CODE: Find a way to dynamically retrieve the "title" property from svg
+  var state = ["Australia", "USA"];
   // Change current element with title
-  document.getElementById("name").innerHTML = "["+ gimble +"]";
+  document.getElementById("name").innerHTML = "["+ "The country name" +"]";
 }
 
 function mouseOut() {
@@ -35,8 +35,7 @@ document.addEventListener("click", function() {
 });
 
 function triggerPopUp() {
-  document.getElementById("AU-Trigger");
-  alert("[Temporary] Current population: 244,500 | Growth rate: 20%");
+  alert("[Temporary] Current population: some number | Growth rate: some percentage");
 }
 
 
