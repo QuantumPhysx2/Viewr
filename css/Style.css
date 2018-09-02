@@ -172,7 +172,7 @@ footer {
   text-transform: uppercase;
 }
 
-#prev {
+.prev {
   float: left;
 }
 
@@ -180,7 +180,7 @@ footer {
   cursor: pointer;
 }
 
-#next {
+.next {
   float: right;
 }
 

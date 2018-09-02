@@ -1,3 +1,7 @@
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+// HTML has set to index[0]. JS to start cycling through 1-11
+var index = 1;
+
 // Mouse over script
 // FIX this
 function mouseOver() {
@@ -12,7 +16,19 @@ function mouseOut() {
 }
 
 function updateCalendar() {
-  
+  // If iterable object is less than the amount of attributes in list...
+  if (index < months.length) {
+    // ...Change CLASS "month-header" HTML to current index attribute in list
+    document.getElementById("month-header").innerHTML = months[index]
+    // ...Add index by +1
+    index++;
+    // Debugging
+    console.log(index);
+  // Elif the index reaches December...
+  } else if (index == months.length) {
+    // ...Reset index to zero to repeat cycle
+    index = 0;
+  }
 }
 
 // Drop down script (credit to StackOverflow and Codepen)
