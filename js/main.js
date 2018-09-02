@@ -1,6 +1,12 @@
+// Variables
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 // HTML has set to index[0]. JS to start cycling through 1-11
 var index = 1;
+
+// Modal box
+var modal = document.getElementById("modal");
+var activator = document.getElementById("activator");
+var span = document.getElementsByClassName("close")[0];
 
 // Mouse over script
 // FIX this
@@ -15,15 +21,13 @@ function mouseOut() {
   document.getElementById("name").innerHTML = "[Country Name]" ;
 }
 
-function updateCalendar() {
+function nextMonth() {
   // If iterable object is less than the amount of attributes in list...
   if (index < months.length) {
     // ...Change CLASS "month-header" HTML to current index attribute in list
-    document.getElementById("month-header").innerHTML = months[index]
+    document.getElementById("month-header").innerHTML = months[index];
     // ...Add index by +1
     index++;
-    // Debugging
-    console.log(index);
   // Elif the index reaches December...
   } else if (index == months.length) {
     // ...Reset index to zero to repeat cycle
@@ -52,12 +56,22 @@ document.addEventListener("click", function() {
       }
     }
   }
+  /* Current iteration causes drop menu to open too
+  window.onclick = function(evt) {
+    if (evt.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  */
 });
 
 function triggerPopUp() {
-  alert("[Temporary] Current population: some number | Growth rate: some percentage");
+  modal.style.display = "block";
 }
 
+function closePopUp() {
+  modal.style.display = "none";
+}
 
 // Map movement controls logic
 // Get current pointer coordinates (X and Y)
