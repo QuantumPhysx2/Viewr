@@ -161,8 +161,17 @@ g {
 .modal-body,
 .modal-footer {
   padding: 2px 16px;
-  background-color: #222;
-  color: #fff;
+  background-color: #fff;
+  color: #222;
+}
+
+.modal-header {
+  background-color: #0f8be3;
+}
+
+.modal-content h1,
+.modal-content p {
+  color: #222;
 }
 
 .close {
