@@ -136,18 +136,13 @@ g {
   cursor: pointer;
 }
 
-.overlay {
-  color: #fff;
-  visibility: hidden;
-}
-
 /*Page Footer*/
 footer {
   width: 100%;
   overflow: hidden;
   text-align: center;
   background-color: #ebe9e7;
-  border-top: 1px solid #52adff;
+  border-top: 2px solid #52adff;
 }
 
 .bottom-footer {

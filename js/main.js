@@ -4,11 +4,15 @@ function mouseOver() {
   // CODE: Find a way to dynamically retrieve the "title" property from svg
   var state = ["Australia", "USA"];
   // Change current element with title
-  document.getElementById("name").innerHTML = "["+ "The country name" +"]";
+  document.getElementById("name").innerHTML = "["+ "The country/state name" +"]";
 }
 
 function mouseOut() {
   document.getElementById("name").innerHTML = "[Country Name]" ;
+}
+
+function updateCalendar() {
+  
 }
 
 // Drop down script (credit to StackOverflow and Codepen)
