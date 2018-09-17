@@ -28,48 +28,11 @@ body {
 }
 
 main {
+  display: grid;
+  grid-template-columns: 1fr;
   margin: 15px;
   min-height: 100%;
   text-align: center;
-}
-
-main button {
-  width: 100%;
-  height: 40px;
-  font-size: 19px;
-  cursor: pointer;
-}
-
-.left-main {
-  background-color: #344150;
-  border: 1px solid #fff;
-}
-
-.left-main li {
-  list-style: none;
-}
-
-.left-main a {
-  color: #fff;
-}
-
-.drop-content {
-  display: none;
-  z-index: 1;
-}
-
-.drop-content li {
-  padding: 5px 0px;
-}
-
-.drop-content a {
-  font-size: 19px;
-}
-
-.show-menu {
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  background-color: #545251;
 }
 
 .land {
@@ -85,69 +48,16 @@ main button {
   fill: #52adff;
 }
 
-.right-main {
-  margin-left: 15px;
+.container {
   background-color: #fff;
 }
 
-.right-main h1 {
+.container h1 {
   margin: 15px 0px;
   color: #242d3a;
   font-size: 30px;
 }
 
-.top-container {
-  display: grid;
-  grid-template-columns: 250px 1fr;
-}
-
-.bottom-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  height: auto;
-}
-
-.bottom-container h1 {
-  margin: 15px 15px;
-}
-
-.bottom-container ul {
-  margin: 5px 15px;
-}
-
-.box-1,
-.box-2,
-.box-3,
-.box-4 {
-  margin-top: 15px;
-  background-color: #fff;
-  border-radius: 2px;
-  text-align: left;
-}
-
-.box-1 {
-  background-color: #dc3545;
-}
-
-.box-2 {
-  background-color: #007bff;
-}
-
-.box-3 {
-  background-color: #fd7e14;
-}
-
-.box-4 {
-  background-color: #28a745;
-}
-
-.box-1:nth-child(1),
-.box-2:nth-child(2),
-.box-3:nth-child(3) {
-  margin-right: 10px;
-}
-
-/*CHANGE ME TO IMPROVE STUFF*/
 #chartdiv {
   width: 100%;
   height: 600px;
@@ -166,11 +76,6 @@ main button {
 #usa-map {
   width: 1100px;
   height: 758px;
-}
-
-g {
-  width: auto;
-  cursor: pointer;
 }
 
 path:hover {
@@ -323,7 +228,7 @@ footer {
     padding: 2px;
   }
 
-  .right-main {
+  .container {
     margin-left: 8px;
   }
 }
@@ -377,7 +282,7 @@ footer {
   }
 
   .left-main,
-  .right-main {
+  .container {
     margin: 1px;
     max-width: 100%;
     overflow: hidden;
@@ -439,7 +344,7 @@ footer {
   }
 
   .left-main,
-  .right-main {
+  .container {
     margin: 1px;
     max-width: 100%;
     overflow: hidden;
@@ -501,7 +406,7 @@ footer {
   }
 
   .left-main,
-  .right-main {
+  .container {
     margin: 1px;
     max-width: 100%;
     overflow: hidden;
@@ -518,52 +423,27 @@ footer {
     margin: 10px 36px;
   }
 
-  .top-header .navigation {
-    width: 175px;
-    margin: 5px;
-    padding: 10px 70px 10px 65px;
-    display: grid;
-    grid-template-columns: 1fr;
-    border-top: 1px solid #222;
-  }
-
-  .top-header li {
-    padding: 5px;
-  }
-
-  .navigation li:nth-child(1),
-  .navigation li:nth-child(2) {
-    border-bottom: 1px solid #222;
-  }
-
   main {
     margin: 1px;
     padding: 1px;
   }
 
-  .top-container {
-    display: grid;
-    grid-template-rows: 216px 1fr;
-    grid-template-columns: 1fr;
-  }
-
-  .bottom-container {
-    grid-template-columns: 1fr;
-    margin: 1px;
-    padding: 1px;
-  }
-
-  .box-1:nth-child(1),
-  .box-2:nth-child(2),
-  .box-3:nth-child(3) {
-    margin-right: 0px;
-  }
-
-  .left-main,
-  .right-main {
+  .container {
     margin: 1px;
     max-width: 315px;
     overflow: hidden;
+  }
+
+  .container h1 {
+    font-size: 22px;
+  }
+
+  .container p {
+    font-size: 16px;
+  }
+
+  #chartdiv {
+    height: 250px;
   }
 
   .bottom-footer p {

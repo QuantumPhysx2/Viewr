@@ -1,4 +1,4 @@
-// Script is provided by AmCharts.com
+// Source is provided by AmCharts.com
 AmCharts.maps.worldLow = {
   "svg": {
     "defs": {
@@ -1307,6 +1307,11 @@ var map = AmCharts.makeChart("chartdiv", {
       "id": "NE",
       "country": "Niger",
       "population": "19,245,344",
+      "information": "Information Text"
+    }, {
+      "id": "NG",
+      "country": "Nigeria",
+      "population": "190,632,256",
       "information": "Information Text"
     }, {
       "id": "NI",
