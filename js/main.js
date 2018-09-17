@@ -1,26 +1,12 @@
-// Variables
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var year = ["2018"];
-// HTML has set to index[0]. JS to start cycling through 1-11
+
 var index = 1;
 
 // Modal box
-var modal = document.getElementById("modal");
-var activator = document.getElementById("activator");
+var modal = document.querySelector("#modal");
+var activator = document.querySelector("#activator");
 var span = document.getElementsByClassName("close")[0];
-
-// Mouse over script
-// FIX this
-function mouseOver() {
-  // CODE: Find a way to dynamically retrieve the "title" property from svg
-  var state = ["Australia", "USA"];
-  // Change current element with title
-  document.getElementById("name").innerHTML = "["+ "The country/state name" +"]";
-}
-
-function mouseOut() {
-  document.getElementById("name").innerHTML = "[Country Name]" ;
-}
 
 function nextMonth() {
   // If iterable object is less than the amount of attributes in list...
@@ -47,8 +33,9 @@ document.onkeydown = function(evt) {
 
 // Drop down script (credit to StackOverflow and Codepen)
 document.addEventListener("click", function() {
+  var dropBtn = document.getElementById("drop-category");
   // Retrieve element by #id and override the 'show' .class properties
-  document.getElementById("drop-category").classList.toggle("show-menu");
+  dropBtn.classList.toggle("show-menu");
 
   window.onclick = function(evt) {
     // If the click event is applied to the .class 'drop-btn'...
@@ -66,16 +53,8 @@ document.addEventListener("click", function() {
       }
     }
   }
-  /* Current iteration causes drop menu to open too
-  window.onclick = function(evt) {
-    if (evt.target == modal) {
-      modal.style.display = "none";
-    }
-  }
-  */
 });
 
-// Modal functions
 function triggerPopUp() {
   modal.style.display = "block";
 }
@@ -83,14 +62,3 @@ function triggerPopUp() {
 function closePopUp() {
   modal.style.display = "none";
 }
-
-// Map movement controls logic
-// Get current pointer coordinates (X and Y)
-// If pointer.X is moving RIGHT (positive)...
-// ...then change transform: translateX(+x) where x is the pixel value
-// ...elif moving LEFT (negative)...
-// ...then change transform: translateX(-x)
-// If pointer.Y is moving DOWN...
-// ...then change transform: translateY(+Y)
-// ...elif pointer is moving UP...
-// ...then change transform: translateY(-Y)
