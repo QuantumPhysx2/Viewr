@@ -53,7 +53,7 @@ main {
 }
 
 .container h1 {
-  margin: 15px 0px;
+  margin-top: 5px;
   color: #242d3a;
   font-size: 30px;
 }
@@ -65,6 +65,10 @@ main {
 
 .chart-information {
   border-top: 1px solid #222;
+}
+
+#restaurants p {
+  font-family: "Verdana";
 }
 
 #australia-map {
@@ -135,12 +139,31 @@ path:hover {
 
 /*Page Footer*/
 footer {
-  display: grid;
-  grid-template-rows: 1fr;
   width: 100%;
   overflow: hidden;
   text-align: center;
   background-color: #ebe9e7;
+}
+
+.bottom-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.bottom-menu i {
+  margin-right: 8px;
+}
+
+.bottom-menu button {
+  height: 35px;
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #222;
+}
+
+.bottom-menu .btn-1:nth-child(1),
+.bottom-menu .btn-1:nth-child(2) {
+  border-right: 1px solid #fff;
 }
 
 .bottom-footer {
@@ -224,7 +247,7 @@ footer {
   color: white;
 }
 
-/*Media Queries [FIX ME]*/
+/*Media Queries*/
 /*Laptops (1024px)*/
 @media (max-width: 1024px) and (min-width: 769px) {
   .top-header .logo {
@@ -313,6 +336,10 @@ footer {
     height: 300px;
   }
 
+  .bottom-menu button {
+    font-size: 16px;
+  }
+
   .bottom-footer p {
     font-size: 12px;
   }
@@ -351,13 +378,17 @@ footer {
     max-width: 100%;
   }
 
+  .bottom-menu button {
+    font-size: 15px;
+  }
+
   .bottom-footer p {
     font-size: 11px;
   }
 }
 
 /*Mobile (320px)*/
-@media only screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .top-header .logo {
     margin: 0px 36px;
     padding: 0px 11px;
@@ -374,16 +405,20 @@ footer {
   }
 
   .container h1 {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .container p {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   #chartdiv {
     min-height: 250px;
     height: 70%;
+  }
+
+  .bottom-menu button {
+    font-size: 13px;
   }
 
   .bottom-footer p {

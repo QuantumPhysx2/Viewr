@@ -4,6 +4,7 @@ var year = ["2018"];
 var index = 1;
 
 // Modal box
+var btn = document.querySelector(".btn-1");
 var modal = document.querySelector("#modal");
 var activator = document.querySelector("#activator");
 var span = document.getElementsByClassName("close")[0];
@@ -38,3 +39,7 @@ function triggerPopUp() {
 function closePopUp() {
   modal.style.display = "none";
 }
+
+btn.addEventListener("click", function() {
+  modal.style.display = "block";
+});

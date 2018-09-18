@@ -1,5 +1,6 @@
 // Source is provided by AmCharts.com
 var map = AmCharts.makeChart("chartdiv", {
+  // All chart attributes are in JSON format
   "type": "map",
   // Map specific details
   "dataProvider": {
@@ -43,15 +44,11 @@ var map = AmCharts.makeChart("chartdiv", {
       "population": "8,754,413",
       "information": "Information Text"
     }, {
-      "id": "",
-      "country": "",
-      "population": "",
-      "information": "Information Text"
-    }, {
       "id": "AU",
       "country": "Australia",
       "population": "23,232,412",
-      "information": "Information Text"
+      "information": "Information Text",
+      "restaurants": "Momofuku Seiobo, Bennelong Restaurant, Quay Restaruant Sydney"
     }, {
       "id": "AZ",
       "country": "Azerbaijan",
@@ -922,6 +919,7 @@ map.addListener("clickMapObject", function(evt) {
   document.querySelector("#country").innerHTML = "<h1>" + evt.mapObject.country + "</h1>";
   document.querySelector("#population").innerHTML = "<p>" + "Estimate population: " + evt.mapObject.population + "</p>";
   document.querySelector("#information").innerHTML = "<p>" + evt.mapObject.information + "</p>";
+  document.querySelector("#restaurants").innerHTML = "<p>" + "Popular Restaurants: " + evt.mapObject.restaurants + "</p>";
 });
 
 var canvas;
