@@ -63,6 +63,10 @@ main {
   height: 600px;
 }
 
+.chart-information {
+  border-top: 1px solid #222;
+}
+
 #australia-map {
   width: 443px;
   height: 415px;
@@ -293,8 +297,8 @@ footer {
   }
 
   .container {
+    height: 428px;
     margin: 1px;
-    max-width: 100%;
   }
 
   .container h1 {
@@ -326,6 +330,10 @@ footer {
     padding: 1px;
   }
 
+  .container {
+    height: 433px;
+  }
+
   .container h1 {
     font-size: 23px;
   }
@@ -335,7 +343,7 @@ footer {
   }
 
   #chartdiv {
-    height: 275px;
+    height: 320px;
   }
 
   .container {
@@ -361,7 +369,7 @@ footer {
   }
 
   .container {
-    height: 435px;
+    height: 434px;
     margin: 1px;
   }
 
