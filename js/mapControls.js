@@ -1,6 +1,7 @@
 // Source is provided by AmCharts.com
 var map = AmCharts.makeChart("chartdiv", {
   "type": "map",
+  // Map specific details
   "dataProvider": {
     "map": "worldLow",
     "getAreasFromMap": true,
@@ -901,6 +902,7 @@ var map = AmCharts.makeChart("chartdiv", {
     "selectedColor": "#52adff",
     "selectable": true
   },
+  // This is where we can assign map specific functions
   "listeners": [{
     "event": "rendered",
     "method": function(e) {

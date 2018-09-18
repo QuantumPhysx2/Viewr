@@ -361,8 +361,8 @@ footer {
   }
 
   .container {
+    height: 435px;
     margin: 1px;
-    max-width: 315px;
   }
 
   .container h1 {
@@ -374,7 +374,8 @@ footer {
   }
 
   #chartdiv {
-    height: 250px;
+    min-height: 250px;
+    height: 70%;
   }
 
   .bottom-footer p {
