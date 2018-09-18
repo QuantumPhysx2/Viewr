@@ -920,6 +920,23 @@ map.addListener("clickMapObject", function(evt) {
   document.querySelector("#population").innerHTML = "<p>" + "Estimate population: " + evt.mapObject.population + "</p>";
   document.querySelector("#information").innerHTML = "<p>" + evt.mapObject.information + "</p>";
   document.querySelector("#restaurants").innerHTML = "<p>" + "Popular Restaurants: " + evt.mapObject.restaurants + "</p>";
+
+
+  // CURRENT TESTING VERSION ------ REMOVE ME WHEN I WORK BETTER
+  // Note: Requires user to be interested before anything appears [aka: click on a country stupid]
+  document.querySelector(".popularRestaurants").innerHTML = "<li>" + evt.mapObject.restaurants + "</li>";
+
+
+
+
+  // Refer to: https://stackoverflow.com/questions/4365246/how-to-change-href-of-a-tag-on-button-click-through-javascript
+
+  // Logic to flexibly add every tag in each modal
+  // Define a list variable (eg/ i = 0)
+  // For i = 0; i != x (where x is a set number); i++...
+  // ...document.querySelector("#.modal-body[list element]").innerHTML = "<li>" + evt.mapObject.restaurants[i] + "</li>"
+  // Note: will need to set it so that once var i reaches max, stop loop incase of accidental recursion
+  // Note: if going this path, CHANGE dataProvider PROPERTIES
 });
 
 var canvas;

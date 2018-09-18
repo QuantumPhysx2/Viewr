@@ -3,12 +3,6 @@ var year = ["2018"];
 
 var index = 1;
 
-// Modal box
-var btn = document.querySelector(".btn-1");
-var modal = document.querySelector("#modal");
-var activator = document.querySelector("#activator");
-var span = document.getElementsByClassName("close")[0];
-
 function nextMonth() {
   // If iterable object is less than the amount of attributes in list...
   if (index < months.length) {
@@ -28,18 +22,18 @@ document.onkeydown = function(evt) {
   // If corresponding key value is pressed...
   if (evt.keyCode == 27) {
     // ...Change css property
-    modal.style.display = "none";
+    modalBox.style.display = "none";
   }
 }
 
-function triggerPopUp() {
-  modal.style.display = "block";
-}
-
-function closePopUp() {
-  modal.style.display = "none";
-}
-
+// Modal box
+var modalBox = document.querySelector("#modal");
+var btn = document.querySelector(".restaurantBtn");
 btn.addEventListener("click", function() {
-  modal.style.display = "block";
+  modalBox.style.display = "block";
 });
+
+var closeIcon = document.querySelector(".close");
+closeIcon.addEventListener("click", function() {
+  modalBox.style.display = "none";
+})

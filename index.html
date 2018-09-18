@@ -32,17 +32,47 @@
     </main>
 
     <footer>
-      <div class="info-modal" id="modal">
+      <div class="restaurantModal" id="modal">
         <div class="modal-content">
           <div class="modal-header">
-            <span class="close" onclick="closePopUp()">&times;</span>
-            <h1>Information Regarding State</h1>
+            <span class="close">&times;</span>
+            <h1>Restaurants</h1>
           </div>
           <div class="modal-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <ul class="popularRestaurants">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
           </div>
           <div class="modal-footer">
-            <h1>Links here</h1>
+            <h1>Footer</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="hotelModal" id="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h1>Hotels</h1>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <h1>Footer</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="landmarkMmodal" id="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h1>Landmarks</h1>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <h1>Footer</h1>
           </div>
         </div>
       </div>
@@ -109,9 +139,9 @@
       -->
       <div class="wrapper">
         <div class="bottom-menu">
-          <button class="btn-1"><i class="fa fa-glass"></i>Restaruants</button>
-          <button class="btn-1"><i class="fa fa-hotel"></i>Hotels</button>
-          <button class="btn-1"><i class="fa fa-flag-o"></i>Landmarks</button>
+          <button class="restaurantBtn" id="bottomBtn"><i class="fa fa-glass"></i>Restaruants</button>
+          <button class="hotelBtn" id="bottomBtn"><i class="fa fa-hotel"></i>Hotels</button>
+          <button class="landmarkBtn" id="bottomBtn"><i class="fa fa-flag-o"></i>Landmarks</button>
         </div>
       </div>
       <div class="bottom-footer">
