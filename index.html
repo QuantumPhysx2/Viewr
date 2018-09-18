@@ -21,29 +21,21 @@
       <div class="container">
         <div id="chartdiv"></div>
         <div class="chart-information">
-          <div id="country">
-            <h1>Country</h1>
-          </div>
+          <div id="country"></div>
           <div id="population"></div>
           <div id="information"></div>
           <div id="restaurants"></div>
         </div>
       </div>
-    </main>
 
-    <footer>
-      <div class="restaurantModal" id="modal">
+      <div class="restaurantModal" id="RMBox">
         <div class="modal-content">
           <div class="modal-header">
             <span class="close">&times;</span>
             <h1>Restaurants</h1>
           </div>
           <div class="modal-body">
-            <ul class="popularRestaurants">
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
+            <ul class="popularRestaurants"></ul>
           </div>
           <div class="modal-footer">
             <h1>Footer</h1>
@@ -51,32 +43,38 @@
         </div>
       </div>
 
-      <div class="hotelModal" id="modal">
+      <div class="hotelModal" id="HMBox">
         <div class="modal-content">
           <div class="modal-header">
             <span class="close">&times;</span>
             <h1>Hotels</h1>
           </div>
-          <div class="modal-body"></div>
+          <div class="modal-body">
+            <ul class="popularHotels"></ul>
+          </div>
           <div class="modal-footer">
             <h1>Footer</h1>
           </div>
         </div>
       </div>
 
-      <div class="landmarkMmodal" id="modal">
+      <div class="landmarkMmodal" id="LMBox">
         <div class="modal-content">
           <div class="modal-header">
             <span class="close">&times;</span>
             <h1>Landmarks</h1>
           </div>
-          <div class="modal-body"></div>
+          <div class="modal-body">
+            <ul class="popularLandmarks"></ul>
+          </div>
           <div class="modal-footer">
             <h1>Footer</h1>
           </div>
         </div>
       </div>
+    </main>
 
+    <footer>
       <!--
       <div class="calendar">
         <div class="month">

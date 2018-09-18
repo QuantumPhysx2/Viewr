@@ -16,24 +16,41 @@ function nextMonth() {
     document.getElementById("year").innerHTML = year++;   // FIX ME -- Currently changing on second year
     index = 0;
   }
-}
+};
 
-document.onkeydown = function(evt) {
-  // If corresponding key value is pressed...
-  if (evt.keyCode == 27) {
-    // ...Change css property
-    modalBox.style.display = "none";
-  }
-}
+// Pop-up Information Box (Modal Box)
+var rmBox = document.querySelector("#RMBox");
+var restaurantBtn = document.querySelector(".restaurantBtn");
+restaurantBtn.addEventListener("click", function() {
+  rmBox.style.display = "block";
+});
 
-// Modal box
-var modalBox = document.querySelector("#modal");
-var btn = document.querySelector(".restaurantBtn");
-btn.addEventListener("click", function() {
-  modalBox.style.display = "block";
+var hmBox = document.querySelector("#HMBox");
+var hotelBtn = document.querySelector(".hotelBtn");
+hotelBtn.addEventListener("click", function() {
+  hmBox.style.display = "block"
+});
+
+var lmBox = document.querySelector("#LMBox");
+var landmarkBtn = document.querySelector(".landmarkBtn");
+landmarkBtn.addEventListener("click", function() {
+  lmBox.style.display = "block"
 });
 
 var closeIcon = document.querySelector(".close");
 closeIcon.addEventListener("click", function() {
-  modalBox.style.display = "none";
-})
+  rmBox.style.display = "none";
+  hmBox.style.display = "none";
+  lmBox.style.display = "none";
+});
+
+// Keydown events
+document.onkeydown = function(evt) {
+  // If corresponding key value is pressed...
+  if (evt.keyCode == 27) {
+    // ...Change css property
+    rmBox.style.display = "none";
+    hmBox.style.display = "none";
+    lmBox.style.display = "none";
+  }
+};
