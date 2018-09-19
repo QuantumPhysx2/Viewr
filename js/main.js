@@ -19,10 +19,11 @@ function nextMonth() {
 };
 
 // Pop-up Information Box (Modal Box)
-var rmBox = document.querySelector("#RMBox");
-var restaurantBtn = document.querySelector(".restaurantBtn");
-restaurantBtn.addEventListener("click", function() {
-  rmBox.style.display = "block";
+// Self Note: Try and find a way to remove this redundant mess in future Sprint -- placeholder
+var rmBox = document.querySelector("#RMBox");                   // Get ID Modal
+var restaurantBtn = document.querySelector(".restaurantBtn");   // Get Class Button
+restaurantBtn.addEventListener("click", function() {            // Assign Button with 'click' function
+  rmBox.style.display = "block";                                // Set CSS property of Modal to 'block' display
 });
 
 var hmBox = document.querySelector("#HMBox");
@@ -37,10 +38,18 @@ landmarkBtn.addEventListener("click", function() {
   lmBox.style.display = "block"
 });
 
-var closeIcon = document.querySelector(".close");
-closeIcon.addEventListener("click", function() {
-  rmBox.style.display = "none";
+var rmCloseIcon = document.querySelector(".rmCloseIcon");              // Repeat same for different Class
+rmCloseIcon.addEventListener("click", function() {
+  rmBox.style.display = "none";                                  // This time, set CSS display style to 'none'
+});
+
+var hmCloseIcon = document.querySelector(".hmCloseIcon");
+hmCloseIcon.addEventListener("click", function() {
   hmBox.style.display = "none";
+});
+
+var lmCloseIcon = document.querySelector(".lmCloseIcon");
+lmCloseIcon.addEventListener("click", function() {
   lmBox.style.display = "none";
 });
 

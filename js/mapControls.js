@@ -924,9 +924,9 @@ map.addListener("clickMapObject", function(evt) {
 
   // CURRENT TESTING VERSION ------ REMOVE ME WHEN I WORK BETTER
   // Note: Requires user to be interested before anything appears [aka: click on a country stupid]
-  document.querySelector(".popularRestaurants").innerHTML = "<li>" + evt.mapObject.restaurants + "</li>";
-  document.querySelector(".popularHotels").innerHTML = "<li>" + evt.mapObject.hotels + "</li>";
-  document.querySelector(".popularLandmarks").innerHTML = "<li>" + evt.mapObject.landmarks + "</li>";
+  document.querySelector(".popularRestaurants").innerHTML = "<p>" + evt.mapObject.restaurants + "</p>";
+  document.querySelector(".popularHotels").innerHTML = "<p>" + evt.mapObject.hotels + "</p>";
+  document.querySelector(".popularLandmarks").innerHTML = "<p>" + evt.mapObject.landmarks + "</p>";
 
 
 

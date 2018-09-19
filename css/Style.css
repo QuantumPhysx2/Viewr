@@ -140,15 +140,21 @@ path:hover {
   color: #222;
 }
 
-.close {
+.rmCloseIcon,
+.hmCloseIcon,
+.lmCloseIcon {
   color: #222;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.rmCloseIcon:hover,
+.rmCloseIcon:focus,
+.hmCloseIcon:hover,
+.hmCloseIcon:focus,
+.lmCloseIcon:hover,
+.lmCloseIcon:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -319,6 +325,10 @@ footer {
     height: 500px;
   }
 
+  .modal-body p {
+    font-size: 18px;
+  }
+
   .bottom-footer p {
     font-size: 13px;
   }
@@ -353,6 +363,10 @@ footer {
     height: 300px;
   }
 
+  .modal-body p {
+    font-size: 16px;
+  }
+
   .bottom-menu button {
     font-size: 16px;
   }
@@ -376,6 +390,8 @@ footer {
 
   .container {
     height: 433px;
+    margin: 1px;
+    max-width: 100%;
   }
 
   .container h1 {
@@ -390,9 +406,8 @@ footer {
     height: 320px;
   }
 
-  .container {
-    margin: 1px;
-    max-width: 100%;
+  .modal-body p {
+    font-size: 15px;
   }
 
   .bottom-menu button {
@@ -434,7 +449,7 @@ footer {
     height: 70%;
   }
 
-  .modal-body li {
+  .modal-body p {
     font-size: 13px;
   }
 
