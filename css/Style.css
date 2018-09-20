@@ -66,8 +66,8 @@ main {
   border-top: 1px solid #222;
 }
 
-#restaurants p {
-  font-family: "Verdana";
+.country-desc {
+  font-weight: bold;
 }
 
 path:hover {
