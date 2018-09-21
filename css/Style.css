@@ -177,11 +177,12 @@ footer {
   margin-right: 8px;
 }
 
-.bottom-menu button {
+.bottom-menu #bottomBtn {
   height: 35px;
   background-color: #222;
   color: #fff;
   border: 1px solid #222;
+  cursor: pointer;
 }
 
 .bottom-menu #bottomBtn:nth-child(1),
