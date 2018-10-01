@@ -113,12 +113,23 @@ path:hover {
 .modal-content {
   display: grid;
   grid-template-rows: 35px auto 35px;
+  width: 80%;
   margin: 15% auto;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.2);
   border: 1px solid #222;
   border-radius: 4px;
-  width: 80%;
+  animation: modalFadeIn 0.4s;
+}
+
+@keyframes modalFadeIn {
+  from {opacity: 0.0}
+  to {opacity: 1.0}
+}
+
+@keyframes modalFadeOut {
+  from {opacity: 1.0}
+  to {opacity: 0.0}
 }
 
 .modal-header,
@@ -168,16 +179,16 @@ footer {
   background-color: #ebe9e7;
 }
 
-.bottom-menu {
+.top-menu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.bottom-menu i {
+.top-menu i {
   margin-right: 8px;
 }
 
-.bottom-menu #bottomBtn {
+.top-menu #menuBtn {
   height: 35px;
   background-color: #222;
   color: #fff;
@@ -185,8 +196,8 @@ footer {
   cursor: pointer;
 }
 
-.bottom-menu #bottomBtn:nth-child(1),
-.bottom-menu #bottomBtn:nth-child(2) {
+.top-menu #menuBtn:nth-child(1),
+.top-menu #menuBtn:nth-child(2) {
   border-right: 1px solid #fff;
 }
 
@@ -368,7 +379,7 @@ footer {
     font-size: 16px;
   }
 
-  .bottom-menu button {
+  .top-menu #menuBtn {
     font-size: 16px;
   }
 
@@ -411,7 +422,7 @@ footer {
     font-size: 15px;
   }
 
-  .bottom-menu button {
+  .top-menu button {
     font-size: 15px;
   }
 
@@ -454,7 +465,7 @@ footer {
     font-size: 13px;
   }
 
-  .bottom-menu button {
+  .top-menu button {
     font-size: 13px;
   }
 
