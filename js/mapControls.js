@@ -10,38 +10,38 @@ var map = AmCharts.makeChart("chartdiv", {
       // Call assigned ID attribute from AmCharts.maps
       // Assign each ID with its own key:values
 
-      // SELF NOTE: Putting Values in [brackets] works for Restaurants, Hotels, Landmarks. Test by calling array index using a defined function in future
+      // Self note: Putting Values in [brackets] works for Restaurants, Hotels, Landmarks. Test by calling array index using a defined function in future
       "id": "AE",
       "country": "United Arab Emirates",
       "population": "6,072,475",
-      "information": "Information Text",
-      "restaurants": "",
-      "hotels": "",
-      "landmarks": ""
+      "information": "An Arabian Penisula nation settled along the Persian Gulf. The UAE is notorious for its jaw dropping buildings.",
+      "restaurants": "The Gallery, The Kitchen, Azure Beach",
+      "hotels": "First Central Hotel Suites, Arabian Park Hotel, Citymax Hotels Bur Dubai",
+      "landmarks": "Burj Khalifa, Sheikh Zayed Mosque, Dubai Atlantis Aquaventure Waterpark"
     }, {
       "id": "AF",
       "country": "Afghanistan",
       "population": "34,124,812",
-      "information": "Information Text",
-      "restaurants": "",
-      "hotels": "",
-      "landmarks": ""
+      "information": "A landlocked country located within South Asia and bordered by Pakistan, Iran, Turkmenistan, Uzbekistan, and Tajikistan.",
+      "restaurants": "Sufi, Kabul Star Hotel & Restaurant, Cafe Zarnegar",
+      "hotels": "Kabul Serena Hotel, Nazary Star Hotel, Darya Village Hotel & Business Park",
+      "landmarks": "Blue Mosque, Babur Tomb, Remains of the Bamiyan Valley"
     }, {
       "id": "AL",
       "country": "Albania",
       "population": "3,047,987",
-      "information": "Information Text",
-      "restaurants": "",
-      "hotels": "",
-      "landmarks": ""
+      "information": "A small country that retains many castles and achaelogical sites from past times.",
+      "restaurants": "Mullixhiu, Ristorante San Giorgio al Porto, Blu Mare",
+      "hotels": "Theranda Hotel, Vila Alba, Paradise Beach Hotel",
+      "landmarks": "Syri i Kalter, Osum Gorge, Apollonia"
     }, {
       "id": "AM",
       "country": "Armenia",
       "population": "3,045,191",
-      "information": "Information Text",
-      "restaurants": "",
-      "hotels": "",
-      "landmarks": ""
+      "information": "One of the earliest Christian civilizations to establish churches during the fourth century.",
+      "restaurants": "MOZAIC Sky Restaurant, La Fayette Restaurant, Tumanyan Khinkali",
+      "hotels": "ibis Yerevan Center Hotel, Tufenkian Historic Yerevan Hotel, Tsaghkadzor Marriott Hotel",
+      "landmarks": "Republic Square, Monastery Sevanavank, The Monastery of Geghard"
     }, {
       "id": "AO",
       "country": "Angola",
