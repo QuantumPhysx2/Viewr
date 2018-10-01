@@ -46,16 +46,16 @@ var map = AmCharts.makeChart("chartdiv", {
       "id": "AO",
       "country": "Angola",
       "population": "29,310,272",
-      "information": "Information Text",
-      "restaurants": "",
-      "hotels": "",
-      "landmarks": ""
+      "information": "Angola is a South African country that contains a tropical terrains and beaches with the addition of a system of rivers.",
+      "restaurants": "Restaurant Pimms, Chill Out, Nikki's House Restaurant",
+      "hotels": "IU Hotel Luanda Viana, Ibis Style IU Luanda Cacuaco Hotel, Luna Hotel Zombo",
+      "landmarks": "Iguazu National Park, Kalandua Falls, Musslo Beach"
     }, {
       "id": "AR",
       "country": "Argentina",
       "population": "44,293,292",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "The Argentine Experience, La Popular de San Telmo, La Cabrera",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -63,7 +63,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Austria",
       "population": "8,754,413",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Loca, Griechenbeisl, Casin Restaurant Wien, ",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -79,7 +79,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Azerbaijan",
       "population": "9,961,396",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Shirvanshah Museum Restaurant, Scalini Italian Restaurant, Mari Vanna",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -87,7 +87,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Bosnia and Herzegovina",
       "population": "3,856,181",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Dveri Restaurant, Mala Kuhinja, Avlija Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -95,7 +95,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Bangladesh",
       "population": "157,826,576",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Izumi Japanese Kitchen, New Handi Restaurant, The Exchange Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -103,7 +103,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Belgium",
       "population": "11,491,346",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Restaurant le Rabassier, Bia Mara Restaurant, Tonton Garby",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -111,7 +111,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Burkina Faso",
       "population": "20,107,508",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Le Verdoyant, La Perle, Le Coq Bleu",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -119,7 +119,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Bulgaria",
       "population": "7,101,510",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Talents Restaurant, Moma Bulgarian Food & Wine, Magnolia",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -127,7 +127,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Burundi",
       "population": "11,466,756",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Bora Bora Beach Club Restaurant, Pasta Comedia, Restaurant Tanganyika",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -135,7 +135,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Benin",
       "population": "11,038,805",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Dream Beach, L'Impala, Le Privé Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -143,7 +143,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Brunei Darussalam",
       "population": "443,593",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Kaizen Sushi, I-Lotus Restaurant, Danes Cafe",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -151,7 +151,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Bolivia",
       "population": "11,138,234",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Bolivian Popular Food, Chalet la Suisse, Cafe del Mundo",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -159,7 +159,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Brazil",
       "population": "207,353,392",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Restaurante Olympe, CT Broucherie, Mocotó",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -167,7 +167,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Bahamas",
       "population": "329,988",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Poop Deck Restaurant, Café Matisse, Rock House Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -175,7 +175,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Bhutan",
       "population": "758,288",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "San Maru Restaurant, Babesa Village Restaurant, Zombala 2",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -183,7 +183,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Botswana",
       "population": "2,214,858",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Main Deck Restaurant, Marc's Eatery, Bascilico Italian Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -191,7 +191,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Belarus",
       "population": "9,549,747",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Vasilki Restaurant, Bistro de Luxe, Tiflis Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -199,7 +199,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Belize",
       "population": "360,346",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Celebrity Restaurant & Bar, Bird Isle Restaurant, Riverside Tavern",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -207,7 +207,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Canada",
       "population": "35,623,680",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Five Sails Restaurant, Raymonds Restaurant, Hardware Grill",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -215,7 +215,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Democratic Republic of Congo",
       "population": "83,301,152",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Le Chalet, Chez Flore, Le Cercle Gourmand",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -223,7 +223,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Central African Republic",
       "population": "5,625,118",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Carré Gourmand, Relais des Chasses, L'Escale",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -231,7 +231,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Republic of Congo",
       "population": "4,954,674",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Mami Wata, Restaurant d'Vins, La Perla",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -239,7 +239,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Switzerland",
       "population": "8,236,303",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Kronenhalle, IZUMI Restaurant, Restaurant Essort",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -247,7 +247,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "CÃ´te d'Ivoire",
       "population": "24,905,843",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "La Case Bleue, Restaurant Saakan, Villa Savoia",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -255,7 +255,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Chile",
       "population": "17,789,268",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Jewel of India, Boragó, Bocanáriz",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -263,7 +263,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Cameroon",
       "population": "24,994,884",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Restaurant Kajazoma, IYA Restaurant, L'Ovalie",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -271,7 +271,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "China",
       "population": "1,379,302,784",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Noodle House, Hanuman, Dian Dou De",
       "hotels": "",
       "landmarks": ""
     },  {
@@ -279,7 +279,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Colombia",
       "population": "47,698,524",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Matiz, Restaurant Fulanitos, Mini Mal",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -287,7 +287,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Costa Rica",
       "population": "4,930,258",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "La Luz Restaurant, Tin Jo Asian Restaurant, La Pecora Nera Ristorante",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -295,7 +295,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Cuba",
       "population": "11,147,407",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Restaurant La Casa, La Guarida Restaurant, Fontana",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -303,7 +303,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Cyprus",
       "population": "1,189,085",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Pyxida Fish Tavern, Fanous Lebanese Restaurant, Sienna Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -311,7 +311,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Czech Republic",
       "population": "10,674,723",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Soul Bistro, Restaurance Bellevue, Blue Wagon Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -319,7 +319,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Germany",
       "population": "80,594,016",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Aqua Restaurant, Marjellchen, Restaurant Schlossgarten",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -327,7 +327,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Djibouti",
       "population": "865,267",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Melting Pot Restaurant Djibouti, Café de la Gare, Mukbassa Central Chez Youssouf",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -335,7 +335,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Denmark",
       "population": "5,605,948",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "The Standard, Kokkeriet, Noma Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -343,7 +343,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Dominican Republic",
       "population": "10,734,247",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Nam Nam, Jellyfish Restaurant, El Mesón de la Cava Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -351,7 +351,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Algeria",
       "population": "40,969,444",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Caracoya, Restaurant Le Bearnais, Burger Bar Gourmet Bugers",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -359,7 +359,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Ecuador",
       "population": "16,390,913",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Zazu, Martinica, URKO Cocina Local",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -367,7 +367,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Estonia",
       "population": "1,251,581",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Restoran Sardiinid, Restaurant MEKK, Horisont Restaurant & Bar",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -375,7 +375,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Egypt",
       "population": "97,041,072",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Atyab Popular Restaurant, Zitouni, Saraya Gallery",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -383,7 +383,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Western Sahara",
       "population": "603,253",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Chez Ntifi, Josefina Restaurant, Villa Dakhla",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -391,7 +391,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Eritrea",
       "population": "5,918,919",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Al Sicomoro Restaurant, Casa degli Italiani Restaurant, The Roof Garden",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -399,7 +399,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Spain",
       "population": "48,958,160",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Nerua, Con Gracia, El Celler de Can Roca",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -407,7 +407,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Ethiopia",
       "population": "105,350,016",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Lucy Lounge & Restaurant, Moyos Cafe, Yod Abyssinia Traditional Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -415,7 +415,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Falkland Island",
       "population": "3,198",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "The Waterfront Kitchen Cafe, The Narrows Bar, Tasty Treat",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -423,7 +423,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Finland",
       "population": "5,518,371",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Ravintola Kuu, Restaurant Ask, Savoy",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -431,7 +431,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Fiji",
       "population": "920,938",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Tu's Place, Nadina Authentic Fijian Restaurant, Bonefish Seafood Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -439,7 +439,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "France",
       "population": "67,106,160",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Pierre Ganaire, L'Abeille, L'Initial",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -447,7 +447,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Gabon",
       "population": "1,772,255",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Roma Restaurant, Life By Mayena, Amigo's Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -455,7 +455,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "United Kingdom",
       "population": "64,789,452",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "The Ledbury, Peace & Loaf Restaurant, taNgia Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -463,7 +463,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Georgia",
       "population": "4,926,330",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Aria, Mrs. Wilkes Dining Room, Brandi's World Famous Hot Dogs",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -471,7 +471,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "French Guiana",
       "population": "289,763",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Restaurant Paris Cayenne, La Belle Amédé, Kaz Mimi",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -479,7 +479,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Ghana",
       "population": "27,499,924",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Santoku, La Chaumiere, Buka Restaurant Osu Accra",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -487,7 +487,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Greenland",
       "population": "57,713",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Restaurant Mamartut, Café Esmeralda, Bone's Nuuk",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -495,7 +495,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Gambia",
       "population": "2,051,363",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Darboe's Bar and Restaurant, Leo's Beach Hotel & Restaurant, Scala Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -503,7 +503,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Guinea",
       "population": "12,413,867",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Le Mouv', Restaurant Patisserie Le Damier, Obama Cafe",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -511,7 +511,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Equatorial Guinea",
       "population": "778,358",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "La Luna, Aviator Pub & Cafe, Bidji Binia",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -519,7 +519,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Greece",
       "population": "10,768,477",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Manoli's Greek Taverna, Yots Greek Taverna, Broadway Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -527,7 +527,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Guatemala",
       "population": "15,460,732",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Restaurant Kacao, Del Griego, Jean Francois",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -535,7 +535,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Guinea-Bissau",
       "population": "1,792,338",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "O Bistro, Restaurante Papa Loca, Coqueiros Bar Bissau",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -543,7 +543,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Guyana",
       "population": "737,718",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Oasis Cafe, Night Cap, Aagman Indian Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -551,7 +551,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Honduras",
       "population": "9,038,741",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Sundowners Beach Bar, El Patio, Roatan Oasis",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -559,7 +559,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Croatia",
       "population": "4,292,095",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Nautika, Restaurant Dubrovnik, Restaurant Niko",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -567,7 +567,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Haiti",
       "population": "10,646,714",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Papeye, Magdoos Restaurant, Lakay",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -575,7 +575,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Hungary",
       "population": "9,850,845",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Hungarikum Bisztro, Cafe Bouchon, Cavier & Bull",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -583,7 +583,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Indonesia",
       "population": "260,580,736",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Locavore Restaurant, Pinisi Resto, Mozaic",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -591,7 +591,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Ireland",
       "population": "5,011,102",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Dax Restaurant, Etto, Mulberry Garden",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -599,7 +599,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Israel",
       "population": "8,299,706",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Taizu, Machneyuda, Mashya",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -607,7 +607,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "India",
       "population": "1,281,935,872",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Indian Accent, Villa Maya Heritage Restaurant, Sunset View a Tandoori Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -615,7 +615,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Iraq",
       "population": "39,192,112",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Bouba Restaurant from Lebanon, The Grill, Habruri Grill",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -623,7 +623,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Iran",
       "population": "82,021,568",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Koohpaye Restaurant, Gilaneh Restaurant, Bistango",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -631,7 +631,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Iceland",
       "population": "339,747",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Grillmarkaðurinn, Nostra, Forettabarinn",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -639,7 +639,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Italy",
       "population": "62,137,800",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Club del Doge Restaurant, Da Vittorio, Dal Pescatore",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -647,7 +647,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Jamaica",
       "population": "2,990,561",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "House Boat Grill Restaurant, Murphy's West End, Scotchies",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -655,7 +655,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Jordan",
       "population": "10,248,068",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Rodeo Grill, Burj Al Hamam, Gusto Italian Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -663,7 +663,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Japan",
       "population": "126,451,400",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Han no Daidokoro, Ise Sueyoshi, Tapas Molecular Bar",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -671,7 +671,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Kenya",
       "population": "47,615,740",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Misono Restaurant, About Thyme Restaurant, Seven Seafood & Grill",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -679,7 +679,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Kyrgyzstan",
       "population": "5,789,122",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Vinoteka, Frunze Restaurant, Cafe Pur Pur",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -687,7 +687,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Cambodia",
       "population": "16,204,486",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Malis Restaurant, Marum Restaurant, Cuisine Wat Damnak",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -695,7 +695,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "North Korea",
       "population": "25,448,140",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Laoba North Korea Noodles, The Friendship, Ongnyugwan",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -703,7 +703,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "South Korea",
       "population": "51,181,300",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Tavolo 24, Jungsik Seoul, Jyoti Indian Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -711,7 +711,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Kosovo",
       "population": "1,920,079",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Home Restaurant & Bar, Taverna Tirona, Himalayan Gorkha Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -719,7 +719,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Kuwait",
       "population": "2,875,422",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Mais Alghanim Restaurant, Salt Restaurant, Le Sushi Bar Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -727,7 +727,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Kazakhstan",
       "population": "18,556,698",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Alasha, Daredzhani Restaurant, Olivier Restaurant & bar",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -735,15 +735,15 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Lao People's Democratic Republic",
       "population": "6,961,210",
       "information": "Information Text",
-      "restaurants": "",
-      "hotels": "",
-      "landmarks": ""
+      "restaurants": "Doi Ka Noi Restaurant, Pizza da Roby, Kualao Restaurant",
+      "hotels": "Sofitel Luang Prabang Hotel, Mercure Vientiane Hotel, Hotel ibis Vientiane Nam Phu",
+      "landmarks": "Pha That Luang, Mekong River, Luang Pra Bang"
     }, {
       "id": "LB",
       "country": "Lebanon",
       "population": "6,229,794",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Abu Naim, Mounir, Em Sherif Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -751,7 +751,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Sri Lanka",
       "population": "22,409,380",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "On 14 Roof Top Bar & Lounge, Ministry of Crab, The Lagoon",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -759,7 +759,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Liberia",
       "population": "4,689,021",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Evelyn's Restaurant, Diana Restaurant, Anglers Bar and Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -767,7 +767,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Lesotho",
       "population": "1,958,042",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Piripiri Restaurant, The Regal Restaurant, Lancer's Inn Hotel",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -775,7 +775,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Lithuania",
       "population": "2,823,859",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Sweet Root, Lokys, Ertlio Namas",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -783,7 +783,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Luxembourg",
       "population": "594,130",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Restaurant Clairefontaine, Am Tiirmschen, Restaurant Orchidee",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -791,7 +791,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Latvia",
       "population": "1,944,643",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Vincents Restaurant, Riviera, Restorans Restaurant Domini Canes",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -799,7 +799,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Libya",
       "population": "6,653,210",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Wig Restaruant, Mat'am al-Saraya, Athar Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -807,7 +807,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Morocco",
       "population": "33,986,656",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Dar Yacout, Latitude 31 Restaurant Marrakech, Al-Fassia Restaurant",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -815,7 +815,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Moldova",
       "population": "3,474,121",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Grill House, Popasul Dacilor, Vatra Neamului",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -823,7 +823,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Montenegro",
       "population": "642,550",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Pod Volat, Restaurant Galion, Catovica Mlini",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -831,7 +831,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Madagascar",
       "population": "25,054,160",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Le Rossini, La Boussole, Sakamanga Dining & Hotel",
       "hotels": "",
       "landmarks": ""
     }, {
@@ -839,7 +839,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Macedonia",
       "population": "2,103,721",
       "information": "Information Text",
-      "restaurants": "",
+      "restaurants": "Skopski Merak, Pelister, Koletiv",
       "hotels": "",
       "landmarks": ""
     }, {
