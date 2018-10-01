@@ -98,7 +98,7 @@ path:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.landmarkMmodal {
+.landmarkModal {
   display: none;
   position: fixed;
   z-index: 1;
