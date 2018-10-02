@@ -951,202 +951,202 @@ var map = AmCharts.makeChart("chartdiv", {
       "id": "NL",
       "country": "Netherlands",
       "population": "17,084,720",
-      "information": "",
+      "information": "The Netherlands is known for a flat landscape of canals, tulip fields, windmills and cycling routes. It is also home to a building dedicated to Van Gogh and the individual Anne Frank.",
       "restaurants": "Restaurant La Rive, Restaurant Daalda, Blue Pepper",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Sofitel Legend the Grand Amsterdam, Ambassade Hotel, Hotel Estherea",
+      "landmarks": "Keukenhof, Anne Frank's House, Van Gogh Museum"
     }, {
       "id": "NO",
       "country": "Norway",
       "population": "5,320,045",
-      "information": "Information Text",
+      "information": "Norway is a Scandinavian country encompassing mountains, glaciers and deep coastal fjords.",
       "restaurants": "Maaemo, Re-naa, Sabi Omakase Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Grand Hotel Oslo, Hotel Brosundet, Solstrand Hotel & Bad",
+      "landmarks": "Lofoten, Preikestolen, Geirangerfjord"
     }, {
       "id": "NP",
       "country": "Nepal",
       "population": "29,384,296",
-      "information": "Information Text",
+      "information": "Nepal is a landlocked country in South Asia and is located mainly in the Himalayas but also includes parts of the Indo-Gangetic Plain.",
       "restaurants": "The Old House, Le Sherpa, Western Kitchen",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Encounter Nepal, Mi Casa Hotel, Dream Nepal Hotel & Apartment",
+      "landmarks": "Thamel, Chitwan National Park, Kathmandu Valley"
     }, {
       "id": "NZ",
       "country": "New Zealand",
       "population": "4,510,327",
-      "information": "Information Text",
+      "information": "New Zealand is a country in the southwestern Pacific consisting of two main islands, both of which are marked by volcanoes and glaciation.",
       "restaurants": "Sidart Restaurant, Riverstone Kitchen, Roots Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Solitare Lodge, Azur Luxury Lodge, Blanket Bay",
+      "landmarks": "Milford Sound, Fiordland National Park, Aoraki Mount Cook"
     }, {
       "id": "OM",
       "country": "Oman",
       "population": "3,424,386",
-      "information": "Information Text",
+      "information": "Oman is a country which has riverbeds expanding along the oases and long coastlines on the Persian Gulf, Arabian Sea and Gulf of Oman.",
       "restaurants": "Ubhar, Slider Station, Mumtaz Mahal Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel ibis Muscat, Grand Millennium, Al Nahda Resort & Spa",
+      "landmarks": "Sharqiya Sands, Sultan Qaboos Grand Mosque, Jebel Shams"
     }, {
       "id": "PA",
       "country": "Panama",
       "population": "3,753,142",
-      "information": "Information Text",
+      "information": "Panama is most known for the Panama Canal, an engineering feat which cuts through the center of Panama to create essential shipping routes.",
       "restaurants": "Wings Famous Grill, Capital Bistro Panama, Diablicos",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Waldorf Asotria Panama, TRYP Wyndham Panama Centro, The Westin Playa Bonita",
+      "landmarks": "Panama Canal, San Blas Islands, Portobelo Colon"
     }, {
       "id": "PE",
       "country": "Peru",
       "population": "31,036,656",
-      "information": "Information Text",
+      "information": "Peru is a country which retains the ancient city of Machu Picchu located high in the Andes mountains.",
       "restaurants": "Isolina Taberna Peruana, Restaurant Maras, Restaurant El Mercado",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "JW Marriott Hotel Lima, Belmond Hotel Monasterio, Palacio del Inka",
+      "landmarks": "Machu Picchu, Sacred Valley, Nazca Lines"
     }, {
       "id": "PG",
-      "country": "Papa New Guinea",
+      "country": "Papua New Guinea",
       "population": "6,909,701",
-      "information": "Information Text",
+      "information": "Papua New Guinea encompasses the eastern half of New Guinea and its offshore islands. The country contains an immense cultural and biological background.",
       "restaurants": "Bungaraya Restaurant, Asia Aromas Harbour Side West, Daikoku Japanese Steak House",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Rapopo Plantation Resort, Grand Papua Hotel & Spa, Ela Beach Hotel",
+      "landmarks": "Mount Wilhelm, Kokoda Track, Mount Giluwe"
     }, {
       "id": "PH",
       "country": "Philippines",
       "population": "104,256,080",
-      "information": "Information Text",
+      "information": "The Philippines is a country famous for its waterfront promenade and centuries-old Chinatown.",
       "restaurants": "Ristorante delle Mitre, Barbara's Heritage Restaurant, Top Dish",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Sofite Philippine Plaza Manila, Marco Polo Plaza Cebu, The Peninsula Manila",
+      "landmarks": "Boracay, Chocolate Hills, Panglao Island"
     }, {
       "id": "PL",
       "country": "Poland",
       "population": "38,476,268",
-      "information": "Information Text",
+      "information": "Poland is known for its medieval architechture and Jewish heritage.",
       "restaurants": "Culiinaria Italiana, Starka Restaurant, Bistro de Paris",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Sofitel Victoria Warszawa, Mamaison Hotel Le Regina Warsaw, Hotel Bristol",
+      "landmarks": "Wawael Castle, Auschwitz Memorial, Warsaw Old Town"
     }, {
       "id": "PK",
       "country": "Pakistan",
       "population": "204,924,864",
-      "information": "Information Text",
+      "information": "Pakistan is the sixth-most populated country with a population exceeding over 200 million individuals.",
       "restaurants": "Andaaz Restaurant, Kolachi Restaurant, Cafe Flo",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Faisalabad Serena Hotel, Gilgit Serena Hotel, Ramada Multan",
+      "landmarks": "Sheesh Mahal, Lahore Fort, Lake Saiful Muluk"
     }, {
       "id": "PR",
       "country": "Puerto Rico",
       "population": "3,351,827",
-      "information": "Information Text",
+      "information": "Puerto Rico is a Carribean island whose terrain consists of mountains, waterfalls and tropical rainforests.",
       "restaurants": "Famous Dave's Bar-B-Que, 1919 Restaurant, Oceano",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Tres Palmas Inn, Villa Cofresi Hotel & Restaurant, Wyndham Grand Rio Mar Puerto Rico Golf & Beach Resort",
+      "landmarks": "Old San Juan, Condado, El Yunque National Forest"
     }, {
       "id": "PS",
       "country": "Palestinian Territories",
       "population": "5,079,490",
-      "information": "Information Text",
+      "information": "The Palestinian Territories is under control of Israel and its governments.",
       "restaurants": "Afteem, The Tent Restaurant, Singer Cafe",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Taybeh Golden Hotel, Royal Court Hotel, Talitha Kumi Guest House",
+      "landmarks": "The Church of St. Catherine, Church of Nativity, Mount of Temptation Monastery"
     }, {
       "id": "PT",
       "country": "Portugal",
       "population": "10,839,514",
-      "information": "Information Text",
+      "information": "Portugal is located in the Atlantic Ocean and has influenced many aspects of its culture around the surrounding countries.",
       "restaurants": "Alma, Belcanto, Taberna Sal Grosso",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel NH Collection Porto, Avenida Palace, Convento do Espinheiro",
+      "landmarks": "Belem Tower, Pena Palace, Sao Jorge Castle"
     }, {
       "id": "PY",
       "country": "Paraguay",
       "population": "6,943,739",
-      "information": "Information Text",
+      "information": "Paraguay is a landlocked country between Argentina, Brazil and Bolivia and is home to swamplands, subtropical forests and chaco.",
       "restaurants": "Taberna Española, Paulista Grill Churrasquería, Johnny B Good Aviadores",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Villa Morra Suites, Sheraton Asuncion Hotel, La Mision Hotel Boutique",
+      "landmarks": "Itaipu Dam, Triple Frontier, National Pantheon of the Heroes"
     }, {
       "id": "QA",
       "country": "Qatar",
       "population": "2,314,307",
-      "information": "Information Text",
+      "information": "Qatar is a country whose terrain consists of arid deserts and a long Persian Gulf shoreline of beaches.",
       "restaurants": "Rodizio - The Brazilian Churrasquería, Alison Nelson's Chocolate Bar, Paper Moon",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Radission Blu Hotel Doha, K108 Hotel, Premier Inn Doha Education City Hotel",
+      "landmarks": "Souq Waqif, Museum of Islamic Art, The Pearl-Qatar"
     }, {
       "id": "RO",
       "country": "Romania",
       "population": "21,529,968",
-      "information": "Information Text",
+      "information": "Romania is a southeastern European country known for the forested region of Transylvania and is ringed by the Carpathian Mountains.",
       "restaurants": "The ARTIST Restaurant, Mica Elveție, La Pescăria Dorobanților",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "InterContinental Bucharest, JW Marriott Bucharest Grand Hotel, Hotel Mercure Bucharest City Center",
+      "landmarks": "Bran Castle, Peles Castle, Palace of the Parliament"
     }, {
       "id": "RS",
       "country": "Serbia",
       "population": "7,111,024",
-      "information": "Information Text",
+      "information": "Serbia consists of mountains with ski resorts and is home to a Communist-era architechure and Kalemegdan Park.",
       "restaurants": "Little Bay, Ambar, Casa Nova",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Falkensteiner Hotel, Hyatt Regency, Radisson Collection Hotel",
+      "landmarks": "Kalemgdan Park, Belgrade Fortress, Church of Saint Sava"
     }, {
       "id": "RU",
       "country": "Russia",
       "population": "142,257,520",
-      "information": "Information Text",
+      "information": "Russia is the world's largest nation which borders European and Asian countries as well as the Pacific an Arctic Oceans.",
       "restaurants": "AQ Kitchen, Cafe Pushkin, Mari Vanna",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Baltschug Kempinski, Belmond Grand Hotel, Four Seasons Hotel Moscow",
+      "landmarks": "Moscow Kremlin, Hermitage Museum, Red Sqaure"
     }, {
       "id": "RW",
       "country": "Rwanda",
       "population": "11,901,484",
-      "information": "Information Text",
+      "information": "Rwanda is a country with green, mountainous landscapes and is reknown for the Volcanoes National Park as it contains gorillas and golden monkeys.",
       "restaurants": "Poivre Noir, Heaven Restaurant & Boutique Hotel, Brachetto",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Kigali Marriott Hotel, Radisson Blu Hotel & Convention Centre, Paradis Malahide",
+      "landmarks": "Volcanoes National Park, Mount Bisoke, Nyungwe Forest"
     }, {
       "id": "SA",
       "country": "Saudi Arabia",
       "population": "28,571,770",
-      "information": "Information Text",
+      "information": "Saudi Arabia is a desert country encompassing most of the Arabian Peninsula with Red Sea and Persian Golf coastlines.",
       "restaurants": "Top Spice Restaurant, Top Chicken, Nozomi",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Movenpick Hotel & Residences Hajar Tower Makkah, Jeddah Hilton Hotel, Four Seasons Hotel Riyadh at Kingdom Center",
+      "landmarks": "Great Mosque of Mecca, Kaaba, Tiran Island"
     }, {
       "id": "SB",
       "country": "Solomon Islands",
       "population": "647,581",
-      "information": "Information Text",
+      "information": "The Solomon Islands have many WWII-era sites and is the province with one of the largest archipelego memorial islands.",
       "restaurants": "The Ofis Solomon Islands, Mambo Juice!, Jina's Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Solomon Kitano Mendana Hotel, King Solomon Hotel, Pacific Casino Hotel",
+      "landmarks": "Uepi, Rennell Islands, Kennedy Island"
     }, {
       "id": "SD",
       "country": "Sudan",
       "population": "37,345,936",
-      "information": "Information Text",
+      "information": "Sudan is also known as North Sudan since South Sudan's independence.",
       "restaurants": "Riyadh Restaurant Popular Foods, Assaha Restaurant, Spectra Restaurant & Cafe",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Al Salam Rotana Hotel, Acropole Hotel, Coral Port Sudan",
+      "landmarks": "Nubia, Jebel Barkal, Tuti Island"
     }, {
       "id": "SE",
-      "country": "Swedan",
+      "country": "Sweden",
       "population": "9,960,487",
-      "information": "Information Text",
+      "information": "Sweden is home to thousands of coastal islands and inland lakes.",
       "restaurants": "Lilla Ego, Mathias Dahlgren, Agrikultur",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Radisson Blu Waterfront Hotel, Hotel Skeppsholmen, Icehotel",
+      "landmarks": "Gamla Stan, Stockholm Palace, Skansen"
     }, {
       "id": "SI",
       "country": "Slovenia",
       "population": "1,972,126",
-      "information": "Information Text",
+      "information": "Slovenia is known for its mountains, ski resorts and lakes.",
       "restaurants": "Pri Mari, Nobel Burek, Klobasarna",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Best Western Premier Hotel Slon, Kempinski Palace Portoroz Istria, City Hotel Ljubljana",
+      "landmarks": "Lake Bled, Postojna Cave, Triglav National Park"
     }, {
       "id": "SJ",
       "country": "Svalbard and Jan Mayen",
@@ -1159,82 +1159,82 @@ var map = AmCharts.makeChart("chartdiv", {
       "id": "SK",
       "country": "Slovakia",
       "population": "5,445,829",
-      "information": "Information Text",
+      "information": "Slovakia is known for its dramatic natural landscapes and many castles.",
       "restaurants": "TOP Restaurant, Bistro St. Germain, Modrá Hviezda",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Gate One Bratislava, Loft Hotel, Marrol's Boutique Hotel",
+      "landmarks": "Bratislava Castle, Spis Castle, Devin Castle"
     }, {
       "id": "SL",
       "country": "Sierra Leone",
       "population": "6,163,195",
-      "information": "Information Text",
+      "information": "Sierra Leone is a country in West Africa whose known for the white-sand beaches lining the Freetown Penisula.",
       "restaurants": "Tessa's Restaurant, Crown Bakery, Crown Xpress",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "New Brookfields Hotel, Home Suites Boutique Hotel, Sierra Lighthouse Hotel",
+      "landmarks": "Banana Islands, Tiwai Island, Bunce Island"
     }, {
       "id": "SN",
       "country": "Senegal",
       "population": "14,668,522",
-      "information": "Information Text",
+      "information": "Senegal is a country rich with French colonial heritage and many natural attractions.",
       "restaurants": "Restaurant Le Lagon 1, La Calebasse, Coco Diop",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Radisson Blu Hotel, Lamantin Beach Hotel, Hotel Novotel Dakar",
+      "landmarks": "Lake Retba, Goree, House of Slaves"
     }, {
       "id": "SO",
       "country": "Somalia",
       "population": "11,031,386",
-      "information": "Information Text",
+      "information": "Somalia is located in the Horn of Africa and is bordered by Ethiopia to the west.",
       "restaurants": "Hayat Restaurant Hargeisa, Royal Lounge Hargeisa, Bacado Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "City Palace Hotel, Ambassador Hotel, Damal Hotel Hargeisa",
+      "landmarks": "Mogadishu Cathedral, Mount Shimbiris, Mosque of Islamic Solidarity"
     }, {
       "id": "SR",
       "country": "Suriname",
       "population": "591,919",
-      "information": "Information Text",
+      "information": "Suriname is defined by its vast swaths of tropical rainforests and Dutch colonial architectures.",
       "restaurants": "Las Tias Suirname, Garden of Eden, Sushi-Ya",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Ramada Paramaribo Princess Hotel, Hotel Torarica, The Golden Truly Hotel & Casino",
+      "landmarks": "Fort Zeelandia, Brownsberg Nature Park, Garden of Palms"
     }, {
       "id": "SS",
       "country": "South Sudan",
       "population": "37,345,936",
-      "information": "Information Text",
+      "information": "South Sudan is a country located in East-Central Africa.",
       "restaurants": "Home And Away, South Sudanese Local Restaurant, Notos Lounge Bar & Grill",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Keren Hotel, Airport Plaza Hotel, Juba Grand Hotel",
+      "landmarks": "Sudd, Imatong Mountains, Kinyeti"
     }, {
       "id": "SV",
       "country": "El Salvador",
       "population": "6,172,011",
-      "information": "Information Text",
+      "information": "El Salvador is known for its Pacific Ocean beaches, surf spots and mountainous landscape.",
       "restaurants": "Al Pomodoro, Kamakura, Faisca Do Brazil",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Quality Hotel Real Aeropuerto, Barcelo San Salvador, Hotel La Posada del Angel",
+      "landmarks": "El Tunco, Tazumal, Coatepeque Caldera"
     }, {
       "id": "SY",
       "country": "Syria",
       "population": "18,028,548",
-      "information": "Information Text",
+      "information": "Syria is a country located in Western Asia, bordering Lebanon and the Mediterranean Sea.",
       "restaurants": "Naranj, Haretna, Al Khawali",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Art House, Four Seasons Hotel Damascus, Baron Hotel",
+      "landmarks": "Umayyad Mosque, Krak des Chevaliers, Temple of Bel"
     }, {
       "id": "SZ",
       "country": "Swaziland",
       "population": "1,467,152",
-      "information": "Information Text",
+      "information": "Swaziland is known for its wilderness reserves and festivals showcasing traditional Swazi culture.",
       "restaurants": "Ramblas Restaurant Mbabane, Malandela's Restaurant, Shebas Rock Spur",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Mountain Inn, Royal Swazi Spa, The George Hotel",
+      "landmarks": "Mlilwane Wildlife Sanctuary, Hlane Royal National Park, Mbuluzi Game Reserve"
     }, {
       "id": "TD",
       "country": "Chad",
       "population": "12,075,985",
-      "information": "Information Text",
+      "information": "Chad is bordered by Libya to the north with Sudan to the east and Central African Republic to the south.",
       "restaurants": "Cote Jardin, Le Carnivore, Le Central",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hilton N'Djamena, Mercure N'Djamena Le Chari, Novotel N'Djamena Tchadienne",
+      "landmarks": "Zakouma National Park, Lakes of Ounianga, Emi Koussi"
     }, {
       "id": "TF",
       "country": "French Southern and Antarctic Lands",
@@ -1247,18 +1247,18 @@ var map = AmCharts.makeChart("chartdiv", {
       "id": "TG",
       "country": "Togo",
       "population": "7,965,055",
-      "information": "Information Text",
+      "information": "Togo is known for its palm-lined beaches and hilltop villages.",
       "restaurants": "Philipat, Alt Munchen, 7SPICE",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Residence Flamani, Hotel Sancta Maria Officiel, Onomo Hotel Lome",
+      "landmarks": "Koutammakou, Mount Agou, Lake Togo"
     }, {
       "id": "TH",
       "country": "Thailand",
       "population": "68,414,136",
-      "information": "Information Text",
+      "information": "Thailand is best known for its tropical beaches, opulent royal palaces, ancient ruins and ornate temples display Buddha.",
       "restaurants": "Siam Supper Club, Sam's Steak & Grill, Sizzle Rooftop Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Novotel Bangkok Impact, Four Seasons Resort Koh Samui, Amari Watergate Bangkok",
+      "landmarks": "Phi Phi Islands, Grand Palace, Patong"
     }, {
       "id": "TJ",
       "country": "Tajikistan",
@@ -1271,42 +1271,42 @@ var map = AmCharts.makeChart("chartdiv", {
       "id": "TL",
       "country": "Timor-Leste",
       "population": "1,291,358",
-      "information": "Information Text",
+      "information": "Timor-Leste is a nation that occupies half the island of Timor and is ringed by coral reefs which are teeming with marine life.",
       "restaurants": "Agora Food Studio, Rolls N Bowls, Caz Bar",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Novo Turismo Resort & Spa, Timor Plaza Hotel & Aparments, Discovery Inn",
+      "landmarks": "Atauro Island, Cristo Rei of Dili, Jaco Island"
     }, {
       "id": "TM",
       "country": "Turkmenistan",
       "population": "5,351,277",
-      "information": "Information Text",
+      "information": "Turkmenistan is a country largely covered by the Karakum Desert and is most known for archaelogical ruins including those at Nisa and Merv.",
       "restaurants": "Merdem Restaurant, Sim-Sim, Altyn Ada",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Grand Turkmen Hotel, Yyldyz Hotel, Nusay Hotel",
+      "landmarks": "Darvaza Gas Crater, Nisa, Neutrality Monument"
     }, {
       "id": "TN",
       "country": "Tunisia",
       "population": "11,403,800",
-      "information": "Information Text",
+      "information": "Tunisia is a country that exhibits many archaelogical structures from both Roman mosaics and Islamic arts.",
       "restaurants": "Restaurant Essaraya, Restaurant El-Walima, Dar El Jeld",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "El Mouradi Cap Mahdia, Vincci Nour Palace, Tui Sensimar Palace Oceana Hammamet",
+      "landmarks": "Port El Kantaoui, Bardo National Museum, Great Mosque of Kairouan"
     }, {
       "id": "TR",
       "country": "Turkey",
       "population": "80,845,216",
-      "information": "Information Text",
+      "information": "Turkey is a country straddinling eastern Europe and western Asia with cultural connections to ancient Greek, Persian, Roman, Byzantine and Ottoman empires.",
       "restaurants": "Kapha, Fuoco Restaurant, Seki Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Amanruya, The St. Regis Istanbul, The Bodrum",
+      "landmarks": "Hagia Sophia, Pamukkale, Sultan Ahmed Mosque"
     }, {
       "id": "TT",
       "country": "Trinidad and Tobago",
       "population": "1,218,208",
-      "information": "Information Text",
+      "information": "Trinidad and Tobago is a dual-island Carribean nation near Venezuela with distinctive features such as their traditions and cuisines.",
       "restaurants": "Shore Things Cafe & Craft, Makara Restaurant, The Pasta Gallery",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Courtyard by Marriott Port of Spain, Hyatt Regency Trinidad, Blue Waters Inn",
+      "landmarks": "Pigeon Point, Maracas Bay, Pitch Lake"
     }, {
       "id": "TW",
       "country": "Taiwan",
@@ -1320,7 +1320,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "country": "Tanzania",
       "population": "53,950,936",
       "information": "Information Text",
-      "restaurants": "Mediterraneo Restaurant, Akemi Revolving Restaurant, Addis in Dar",
+      "restaurants": "Mediterraneon Restaurant, Akemi Revolving Restaurant, Addis in Dar",
       "hotels": "",
       "landmarks": ""
     }, {
