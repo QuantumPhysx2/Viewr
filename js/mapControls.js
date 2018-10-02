@@ -567,175 +567,175 @@ var map = AmCharts.makeChart("chartdiv", {
       "id": "HT",
       "country": "Haiti",
       "population": "10,646,714",
-      "information": "Information Text",
+      "information": "Haiti is a Carribean country that shares the island of Hispaniola with the Dominican Republic to its east.",
       "restaurants": "Papeye, Magdoos Restaurant, Lakay",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Oloffson, Hotel Nh Haiti El Rancho, L'anse a L'eau Beach House",
+      "landmarks": "Labadee, Citadelle Laferriere, Marche en Fer"
     }, {
       "id": "HU",
       "country": "Hungary",
       "population": "9,850,845",
-      "information": "Information Text",
+      "information": "Hungary is a landlocked country in Central Europe with the capital being Budapest which is bisected by the Danube River.",
       "restaurants": "Hungarikum Bisztro, Cafe Bouchon, Cavier & Bull",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Danubius Hotel Gellert, Four Seasons Hotel Gresham Palace Budapest, Corinthia Hotel",
+      "landmarks": "Buda Castle, Lake Balaton, Hungarian Parliament Building"
     }, {
       "id": "ID",
       "country": "Indonesia",
       "population": "260,580,736",
-      "information": "Information Text",
+      "information": "Indonesia is a Southeast Asian country made up of thousands of volcanic islands and is home to hundreds of ethnic groups speaking many different languages.",
       "restaurants": "Locavore Restaurant, Pinisi Resto, Mozaic",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Pullman Jakarta Indonesia Thamrin CBD, Hotel Tugu Lombok, Angsana Bintan",
+      "landmarks": "Tanah Lot, Gili Islands, Borobudur"
     }, {
       "id": "IE",
       "country": "Ireland",
       "population": "5,011,102",
-      "information": "Information Text",
+      "information": "Ireland is most well known for its large cliff-hanging coastlines with large expanses of grasslands.",
       "restaurants": "Dax Restaurant, Etto, Mulberry Garden",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Ballyfin Demesne 5 Star Hotel, Trump International Golf Links & HotelDoonbeg Ireland, The Killarney Park Hotel",
+      "landmarks": "Cliffs of Moher, Ring of Kerry, Dingle Penisula"
     }, {
       "id": "IL",
       "country": "Israel",
       "population": "8,299,706",
-      "information": "Information Text",
+      "information": "Israel is regarded by the Jews, Christians and Muslims as a biblical Holy Land and consists of many sacred sites.",
       "restaurants": "Taizu, Machneyuda, Mashya",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Inbal Jerusalem Hotel, The American Colony, Dan Boutique Jerusalem Hotel",
+      "landmarks": "Sea of Galilee, Mount Zion, Masada"
     }, {
       "id": "IN",
       "country": "India",
       "population": "1,281,935,872",
-      "information": "Information Text",
+      "information": "India is a vast South Asian country with diverse terrain ranging from Himalayan peaks to Indian Ocean coastlines",
       "restaurants": "Indian Accent, Villa Maya Heritage Restaurant, Sunset View a Tandoori Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "The Oberoi, Umaid Bhawan Palace, Taj Lake Palace",
+      "landmarks": "Taj Mahal, The Red Fort, Amer Fort"
     }, {
       "id": "IQ",
       "country": "Iraq",
       "population": "39,192,112",
-      "information": "Information Text",
+      "information": "Iraq is located in Western Asia that is bordered by Turkey to the north and Iran to the east with Kuwait to the southeast.",
       "restaurants": "Bouba Restaurant from Lebanon, The Grill, Habruri Grill",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Babylon Hotel, Grand Millennium Hotel Sulaimani, Merci Hotel",
+      "landmarks": "Ishtar Gate, Tower of Babel, Ziggurat of Ur"
     }, {
       "id": "IR",
       "country": "Iran",
       "population": "82,021,568",
-      "information": "Information Text",
+      "information": "Iran is an Islamic republic on the Persian Gulf with historical sites dating back to the Persian Empire.",
       "restaurants": "Koohpaye Restaurant, Gilaneh Restaurant, Bistango",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Markazi Iran Hotel, ibis Hotel, Parsian Azadi Hotel",
+      "landmarks": "Pasargadae, Chechel Sotoun, Naqsh-e Jahan Square"
     }, {
       "id": "IS",
       "country": "Iceland",
       "population": "339,747",
-      "information": "Information Text",
+      "information": "Iceland is a Nordic island nation that is defined by its landscape consisting of volcanoes, geysers, hot springs and lava fields.",
       "restaurants": "Grillmarkaðurinn, Nostra, Forettabarinn",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Icelandair Hotel Reykjavik Marina, Icelandair Hotel Vik, Hotel Ranga",
+      "landmarks": "Blue Lagoon, Gullfoss, Jokulsarlon"
     }, {
       "id": "IT",
       "country": "Italy",
       "population": "62,137,800",
-      "information": "Information Text",
+      "information": "Italy is a country with a long Mediterranean coastline which has left a powerful mark on Western civilizations with their cuisines and culture.",
       "restaurants": "Club del Doge Restaurant, Da Vittorio, Dal Pescatore",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Grand Hotel Tremezzo, Belmond Hotel Caruso, The Gritti Palace",
+      "landmarks": "Colosseum, Florence Capital, Amalfi Coast"
     }, {
       "id": "JM",
       "country": "Jamaica",
       "population": "2,990,561",
-      "information": "Information Text",
+      "information": "Jamaica is a Carribean island nation that has a lush topography of mountains, rainforests and reef-lined beaches.",
       "restaurants": "House Boat Grill Restaurant, Murphy's West End, Scotchies",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Couples Negril, Secrets Wild Orchid Montego, Iberostar Rose Hall Suites",
+      "landmarks": "Dunn's River Falls, Dolphin Cove Jamaica, Blue Mountains"
     }, {
       "id": "JO",
       "country": "Jordan",
       "population": "10,248,068",
-      "information": "Information Text",
+      "information": "Jordan (not Air Jordans) is an Arabian country on the east bank of the Jordan River which is defined by ancient monuments, nature reserves and seaside resorts.",
       "restaurants": "Rodeo Grill, Burj Al Hamam, Gusto Italian Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Ma'in Hot Springs, Le Royal Amman, Dead Sea Spa Hotel",
+      "landmarks": "Petra, Wadi Rum, Al-Khazneh"
     }, {
       "id": "JP",
       "country": "Japan",
       "population": "126,451,400",
-      "information": "Information Text",
+      "information": "Japan is an island nation situated in the Pacific Ocean with dense cities, imperial palaces, mountainous national parks and thousands of shrines and temples.",
       "restaurants": "Han no Daidokoro, Ise Sueyoshi, Tapas Molecular Bar",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "St. Regis Osaka, Ritz-Carlton Hotel, Mandarin Oriental Hotel",
+      "landmarks": "Mount Fuji, Odaiba, Kiyomizu-dera"
     }, {
       "id": "KE",
       "country": "Kenya",
       "population": "47,615,740",
-      "information": "Information Text",
+      "information": "Kenya is a country located in East Africa with a coastline towards the Indian Ocean.",
       "restaurants": "Misono Restaurant, About Thyme Restaurant, Seven Seafood & Grill",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Voyager Beach Resort, Hotel Fairmont Mount Kenya Safari Club, Jacaranda Hotel Nairobi",
+      "landmarks": "Maasai Mara, Tsavo East National Park, Lake Nakuru"
     }, {
       "id": "KG",
       "country": "Kyrgyzstan",
       "population": "5,789,122",
-      "information": "Information Text",
+      "information": "Kyrgyzstan is a rugged Central Asian country along the Silk Road with an ancient trade route between China and the Mediterranean.",
       "restaurants": "Vinoteka, Frunze Restaurant, Cafe Pur Pur",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Ambassador Hotel, Discovery Hotel, Rich Hotel",
+      "landmarks": "Issyk-Kul, Burana Tower, Ala Archa National Park"
     }, {
       "id": "KH",
       "country": "Cambodia",
       "population": "16,204,486",
-      "information": "Information Text",
+      "information": "Cambodia is a Southeast Asian nation whose landscape spans low-lying plains, such as the Mejong Delta.",
       "restaurants": "Malis Restaurant, Marum Restaurant, Cuisine Wat Damnak",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Popular Boutique Hotel, Popular Residence Hotel, Tara Angkor Hotel",
+      "landmarks": "Angkor Wat, Banteay Srei, Tonle Sap"
     }, {
       "id": "KP",
       "country": "North Korea",
       "population": "25,448,140",
-      "information": "Information Text",
+      "information": "North Korea is a country located in East Asia constituting the northern part of the Korean Peninsula.",
       "restaurants": "Laoba North Korea Noodles, The Friendship, Ongnyugwan",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Ryugyong Hotel, Yanggakdo International Hotel, Hyangsan Hotel",
+      "landmarks": "Paektu Mountain, Mount Kumgang, Juche Tower"
     }, {
       "id": "KR",
       "country": "South Korea",
       "population": "51,181,300",
-      "information": "Information Text",
+      "information": "South Korea is situated on the southeastern side of the Korean Peninsula and shares one of the world's most heavily militarized borders with North Korea.",
       "restaurants": "Tavolo 24, Jungsik Seoul, Jyoti Indian Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Lotte Hotel World, The Grand Hotel Myeongdong, JW Mariott Hotel Seoul",
+      "landmarks": "N Seoul Tower, Gyeongbokgung, Myeong-dong"
     }, {
       "id": "XK",
       "country": "Kosovo",
       "population": "1,920,079",
-      "information": "Information Text",
+      "information": "Kosovo is a partially recognized state and a disputed territory in Southeastern Europe that declared independence from Serbia in 2008.",
       "restaurants": "Home Restaurant & Bar, Taverna Tirona, Himalayan Gorkha Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Emerald Hotel, Hotel Sirius, Swiss Diamond Hotel Prishtina",
+      "landmarks": "Nebeske Stolice, Hajla, Zljeb"
     }, {
       "id": "KW",
       "country": "Kuwait",
       "population": "2,875,422",
-      "information": "Information Text",
+      "information": "Kuwait is an Arabian country on the Persian Gulf which retains cultural heritage dating back to antiquity.",
       "restaurants": "Mais Alghanim Restaurant, Salt Restaurant, Le Sushi Bar Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Jumeirah Messilah Beach Hotel & Spa, Movenpick Hotel Kuwait, Holiday Inn Kuwait",
+      "landmarks": "Kuwait Towers, Liberation Tower, Grand Mosque"
     }, {
       "id": "KZ",
       "country": "Kazakhstan",
       "population": "18,556,698",
-      "information": "Information Text",
+      "information": "Kazakhstan extends from the Caspian Sea in the west to the Altai Mountains at its eastern border with China and Russia.",
       "restaurants": "Alasha, Daredzhani Restaurant, Olivier Restaurant & bar",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "InterContinental Almaty, Kazakhstan Hotel, Astana Marriott Hotel",
+      "landmarks": "Shymbulak, Baiterek Tower, Big Almaty Lake"
     }, {
       "id": "LA",
       "country": "Lao People's Democratic Republic",
       "population": "6,961,210",
-      "information": "Information Text",
+      "information": "Laos is a Southeast Asian country traversed by the Mekong River and known for its mountainous terrains and French colonial architecture.",
       "restaurants": "Doi Ka Noi Restaurant, Pizza da Roby, Kualao Restaurant",
       "hotels": "Sofitel Luang Prabang Hotel, Mercure Vientiane Hotel, Hotel ibis Vientiane Nam Phu",
       "landmarks": "Pha That Luang, Mekong River, Luang Pra Bang"
@@ -743,215 +743,215 @@ var map = AmCharts.makeChart("chartdiv", {
       "id": "LB",
       "country": "Lebanon",
       "population": "6,229,794",
-      "information": "Information Text",
+      "information": "Lebanon is a country in Western Asia and is bordered by Syria to the north and east with Israel to the south.",
       "restaurants": "Abu Naim, Mounir, Em Sherif Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Bay Lodge Boutique Hotel, Movenpick Hotel & Resort Beirut, Four Seasons Hotel Beirut",
+      "landmarks": "Beqaa Valley, Cedars of God, Temple of Bacchus"
     }, {
       "id": "LK",
       "country": "Sri Lanka",
       "population": "22,409,380",
-      "information": "Information Text",
+      "information": "Sri Lanka is an island located south of India in the Indian Ocean. Its diverse landscapes range from rainforests to arid plains.",
       "restaurants": "On 14 Roof Top Bar & Lounge, Ministry of Crab, The Lagoon",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Cinnamon Red Colombo, The Fortress Sri Lanka, Ozo Colombo",
+      "landmarks": "Sigiriya, Dambulla Cave Temple, Temple of the Tooth"
     }, {
       "id": "LR",
       "country": "Liberia",
       "population": "4,689,021",
-      "information": "Information Text",
+      "information": "Liberia is a country in West Africa which contains national culture and historical structures. It is also known for its beaches bordering the Atlantic coast.",
       "restaurants": "Evelyn's Restaurant, Diana Restaurant, Anglers Bar and Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "The Royal Grand Hotel Suite, Murex Plaza Hotel & Suites, Corina Hotel",
+      "landmarks": "Sapo National Park, Liberian National Museum, Lake Piso"
     }, {
       "id": "LS",
       "country": "Lesotho",
       "population": "1,958,042",
-      "information": "Information Text",
+      "information": "Lesotho is a landlocked kingdom encircled by South Africa and is crisscrossed by a range of rivers and mountain ranges.",
       "restaurants": "Piripiri Restaurant, The Regal Restaurant, Lancer's Inn Hotel",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Maliba Lodge, AVANI Lesotho Hotel & Casino, Kick4Life Hotel & Conference Centre",
+      "landmarks": "Maletsunyane Falls, Thabana Ntlenyana, Afriski"
     }, {
       "id": "LT",
       "country": "Lithuania",
       "population": "2,823,859",
-      "information": "Information Text",
+      "information": "Lithuania is a country known for its medieval structures and has many buildings dating back from the Gothic Renaissance.",
       "restaurants": "Sweet Root, Lokys, Ertlio Namas",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "The Narutis Hotel, Hotel Novotel Vilnius Centre, Radisson Blu Hotel Lietuva",
+      "landmarks": "Hill of Crosses, Gediminas' Tower, Gate of Dawn"
     }, {
       "id": "LU",
       "country": "Luxembourg",
       "population": "594,130",
-      "information": "Information Text",
+      "information": "Luxembourg is a mostly rural country with dense forests from the Ardennes and surrounding nature parks from the north.",
       "restaurants": "Restaurant Clairefontaine, Am Tiirmschen, Restaurant Orchidee",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Vauban, Maho, Hotel Parc Belle-Vue",
+      "landmarks": "Grand Ducal Palace, Little Switzerland, Vianden Castle"
     }, {
       "id": "LV",
       "country": "Latvia",
       "population": "1,944,643",
-      "information": "Information Text",
+      "information": "Latvia is a country on the Baltic Sea situated between Lithuania and Estonia. Its landscape is marked by wide beaches as well as dense, sprawling forests.",
       "restaurants": "Vincents Restaurant, Riviera, Restorans Restaurant Domini Canes",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Gallery Park Hotel & Spa, Radisson Blu Latvija Conference & Spa Hotel, Radisson Blu Ridzene Hotel",
+      "landmarks": "Freedom Monument, Gauja National Park, Rundale Palace"
     }, {
       "id": "LY",
       "country": "Libya",
       "population": "6,653,210",
-      "information": "Information Text",
+      "information": "Libya is a country bordered by the Mediterranean Sea to the north, with Egypt to the east and Sudan to the southeast.",
       "restaurants": "Wig Restaruant, Mat'am al-Saraya, Athar Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Plasma Hotel Tripoli, Sahara Libya Hotel, Radisson Blu Al Mahary Hotel",
+      "landmarks": "Red Castle Museum, Gaberoun, Nafusa Mountains"
     }, {
       "id": "MA",
       "country": "Morocco",
       "population": "33,986,656",
-      "information": "Information Text",
+      "information": "Morocco is distinguished by its Berber, Arabian and European cultural influences.",
       "restaurants": "Dar Yacout, Latitude 31 Restaurant Marrakech, Al-Fassia Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Riyad El Cadi, Hotel Sofitel Agadir Royal Bay Resort, Four Seasons Hotel Casablanca",
+      "landmarks": "Jemaa el-Fnaa, Hassan II Mosque, Todgha Gorge"
     }, {
       "id": "MD",
       "country": "Moldova",
       "population": "3,474,121",
-      "information": "Information Text",
+      "information": "Moldova has varied terrain including forests, rocky hills and vineyards. It's also known for its wine regions and is home to some of the largest wine cellars.",
       "restaurants": "Grill House, Popasul Dacilor, Vatra Neamului",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Best Western Plus Flowers Hotel, Regency Hotel Chisinau, Radisson Blu Hotel Chisinau",
+      "landmarks": "Old Orhei, Soroca Fort, Cricova"
     }, {
       "id": "ME",
       "country": "Montenegro",
       "population": "642,550",
-      "information": "Information Text",
+      "information": "Montenegro is a Balkan country with rugged mountains, medieval vilages and a narrow strip of beaches along its Adriatic coastline.",
       "restaurants": "Pod Volat, Restaurant Galion, Catovica Mlini",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Montenegro, Regent Porto Montenegro, Ramada Podgorica",
+      "landmarks": "Our Lady of the Rocks, Kotor Cathedral, Ostrog Monastery"
     }, {
       "id": "MG",
       "country": "Madagascar",
       "population": "25,054,160",
-      "information": "Information Text",
+      "information": "Madagascar is a huge island off the southeast coast of Africa and is home to thousands of animal species such as lemurs.",
       "restaurants": "Le Rossini, La Boussole, Sakamanga Dining & Hotel",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Libertalia, Hotel Restaurant Riake Resort & Villa, Carlton Madagascar",
+      "landmarks": "Avenue of the Baobabs, Isalo National Park, Andasibe-Mantadia National Park"
     }, {
       "id": "MK",
       "country": "Macedonia",
       "population": "2,103,721",
-      "information": "Information Text",
+      "information": "Macedonia is a country in the Balkan Peninsula in Southeast Europe and is home of one of the successor states of the former Yugoslavia.",
       "restaurants": "Skopski Merak, Pelister, Koletiv",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Skopje Marriott Hotel, Hotel Teatar, Hotel Super 8",
+      "landmarks": "Monastery of Saint Naum, Samuel's Fortress Ohrid, Matka Canyon"
     }, {
       "id": "ML",
       "country": "Mali",
       "population": "17,885,244",
-      "information": "Information Text",
+      "information": "Mali is a landlocked country in West Africa and is geologically identified with the West African Craton.",
       "restaurants": "Hotel Restaurant Badalodge Bamako, Soukothai, African Grill",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Laico Hotel L Amitie Bamako, Onomo Hotel Bamako, Radisson Blu Hotel",
+      "landmarks": "Great Mosque of Djenne, Tomb of Askia, Bandiagara Escarpment"
     }, {
       "id": "MM",
       "country": "Myanmar",
       "population": "53,370,609",
-      "information": "Information Text",
+      "information": "Myanmar is a Southeast Asian nation of more than one hundred ethnic groups bordering many of the surrounding countries nearby.",
       "restaurants": "Le Planteur Restaurants & Lounge, Monsoon Restaurant, Gekko",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Best Western Green Hill Hotel, Famous Hotel Bagan, Famous",
+      "landmarks": "Inle Lake, Shwedagon Pagoda, Mount Popa"
     }, {
       "id": "MN",
       "country": "Mongolia",
       "population": "3,068,243",
-      "information": "Information Text",
+      "information": "Mongolia is known for its vast, rugged expanses and nomadic culture. Mongolia is also named after the notorious founder in the Mongol Empire.",
       "restaurants": "Rosewood Kitchen, MexiKhan, BD's Mongolian Barbeque",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Chinggis Khaan Hotel, Shangri-La Hotel, Springs Hotel Ulaanbaatar Mongolia",
+      "landmarks": "Sukhbaatar Square, Gorkhi-Terelj National Park, Erdene Zuu Monastery"
     }, {
       "id": "MR",
       "country": "Mauritania",
       "population": "3,758,571",
-      "information": "Information Text",
+      "information": "Mauritania is a country in Northwest Africa and us the eleventh largest country in Africa and is bordered by the Atlantic Ocean to the west.",
       "restaurants": "Restaurant Le Tournedos, Tafarit Restaurants, Savana Café",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Iman, Azalai Hotel Marhaba, El Medina",
+      "landmarks": "Arguin, Terjit, Richat Structure"
     }, {
       "id": "MW",
       "country": "Malawi",
       "population": "19,196,246",
-      "information": "Information Text",
+      "information": "Malawi is a landlocked country which is defined by its topography of highlands split by the Great Rift Valley.",
       "restaurants": "Mamma Mia's, Macondo Camp, Veg-Delight Lilongwe",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Sunbird Hotel & Resorts, Malawi Sun Hotel, Crossroads Hotel",
+      "landmarks": "Shire River, Liwonde National Park, Mvuu Camp"
     }, {
       "id": "MX",
       "country": "Mexico",
       "population": "124,574,792",
-      "information": "Information Text",
+      "information": "Mexico is a country between the US and Central America that is known for its Pacific and Gulf of Mexico beaches.",
       "restaurants": "Agua & Sal, Sir Winston Churchill's, Du Mexique by Sonya Grimond",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Nomade, St Regis Mexico City, Las Alcobas Luxury Collection Hotel",
+      "landmarks": "Tulum, Xcaret Park, Xel-Ha Park"
     }, {
       "id": "MY",
       "country": "Malaysia",
       "population": "31,381,992",
-      "information": "Information Text",
+      "information": "Malaysia is a Southeast Asian country occupying parts of the Malay Peninsula and the island of Borneo. It's known for its beaches, ranforests and mix of cultural influences.",
       "restaurants": "El Centro, Laundroluxe, Chilli Vanilla",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Four Seasons Resort Langkawi, Famous Inn, Shangri-La Hotel",
+      "landmarks": "Petronas Towers, Mount Kinabalu, Resorts World Genting"
     }, {
       "id": "MZ",
       "country": "Mozambique",
       "population": "26,573,706",
-      "information": "Information Text",
+      "information": "Mozambique is an island that retains some of the colonial-era ruins which have survived from the Portuguese period.",
       "restaurants": "Mundo's Maputo Mozambique, The Green Turtle Pub & Restaurant, JN 281",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Avenida, Radisson Blu Hotel & Residence, Polana Serena Hotel",
+      "landmarks": "Island of Mozambique, Quirimbas Islands, Benguerra Island"
     }, {
       "id": "NA",
       "country": "Namibia",
       "population": "2,484,780",
-      "information": "Information Text",
+      "information": "Namibia is distinguished by the Namib Desert along the Atlantic Ocean coast and is home to diverse wildlife, including the significant cheeta",
       "restaurants": "The Stellenbosch Wine Bar and The Stellenbosch Tasting Room, Anchors @ the Jetty Restaurant, Leo's at the Castle",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Eberwein, Hotel Thule, The Delight Hotel Swakopmund",
+      "landmarks": "Estosha National Park, Skeleton Coast, Sossusvlei"
     }, {
       "id": "NC",
       "country": "New Caledonia",
       "population": "279,070",
-      "information": "Information Text",
+      "information": "New Caledonia is a French territory comprising dozens of islands in the South Pacific and is known for its palm-lined beaches and rich marine life lagoons.",
       "restaurants": "Au P'tit Café, La Table des Gourmets, Fetrasun",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Sheraton New Caledonia Deva Spa & Golf Resort, Le Meridien Ile des Pins, Hilton Noumea La Promenade Residences",
+      "landmarks": "Amedee Lighthouse, New Caledonian Barrier Reef, Ilot Maitre"
     }, {
       "id": "NE",
       "country": "Niger",
       "population": "19,245,344",
-      "information": "Information Text",
+      "information": "Niger is a landlocked country in Western Africa named after the Niger River which is also bordered by Libya, Chad, Nigeria and Benin.",
       "restaurants": "Le Piller Restaurant, Tabakadi Restaurant, La Cabane",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Tenere, Nikki Hotel, Hotel de la Tapoa",
+      "landmarks": "Termit Massif, Agadez Mosque, Monts Bagzane"
     }, {
       "id": "NG",
       "country": "Nigeria",
       "population": "190,632,256",
-      "information": "Information Text",
+      "information": "Nigeria has many natural landmarks and wildlife reserves and is protected to ensure that the habitats are not disturbed.",
       "restaurants": "Metisse Restaurant, Bungalow's, Terra Kulture Victoria Island Lagos",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Swiss International Mabisel Hotel Port Harcourt, Lagos Oriental Hotel, Protea Hotel Ikeja",
+      "landmarks": "Lagos Island, Victoria Island, Yankari National Park"
     }, {
       "id": "NI",
       "country": "Nicaragua",
       "population": "6,025,951",
-      "information": "Information Text",
+      "information": "Nicaragua is set between the Pacific Ocean and the Carribean Sea and is known for its dramatic terrain of lakes, volcanoes and beaches.",
       "restaurants": "Peruvian Terrace, Restaurant Don Candido, Ola Verde,",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Elements, Casa Canada, Morgan's Rock Hacienda & Ecolodge",
+      "landmarks": "Corn Island, Mombacho, Masaya Volcano"
     }, {
       "id": "NL",
       "country": "Netherlands",
       "population": "17,084,720",
-      "information": "Information Text",
+      "information": "",
       "restaurants": "Restaurant La Rive, Restaurant Daalda, Blue Pepper",
       "hotels": "",
       "landmarks": ""
