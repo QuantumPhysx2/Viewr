@@ -1311,114 +1311,114 @@ var map = AmCharts.makeChart("chartdiv", {
       "id": "TW",
       "country": "Taiwan",
       "population": "23,508,428",
-      "information": "Information Text",
+      "information": "Taiwan is known for its modern cities, traditional Chinese temples and hot springs.",
       "restaurants": "Balle Balle Indian Restaurant & Bar, Merlot Cafe & Bistro, Shin Yeh Main Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Famous Hotel, W Taipei, Palais de Chine Hotel",
+      "landmarks": "Taroko National Park, Taipei 101, Sun Moon Lake"
     }, {
       "id": "TZ",
       "country": "Tanzania",
       "population": "53,950,936",
-      "information": "Information Text",
+      "information": "Tanzania is most known for its vast wilderness landscapes.",
       "restaurants": "Mediterraneon Restaurant, Akemi Revolving Restaurant, Addis in Dar",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Venus Premier Hotel, Protea Hotel, Zanzibar Serena Hotel",
+      "landmarks": "Mount Kilimanjaro, Serengeti, Serengeti National Park"
     }, {
       "id": "UA",
       "country": "Ukraine",
       "population": "44,033,872",
-      "information": "Information Text",
+      "information": "Ukraine is a large country known for its orthodox churches and Black Sea coastlines.",
       "restaurants": "Kanapa, Puzata Hata, Famous",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Fairmont Grand Hotel, Opera, Hotel ibis Kiev City Center",
+      "landmarks": "Kiev Pechersk Lavra, Saint Sophia's Cathedral, Bukovel"
     }, {
       "id": "UG",
       "country": "Uganda",
       "population": "39,570,124",
-      "information": "Information Text",
+      "information": "Uganda's diverse landscape encompasses the snow-capped Rwenzori Mountains and immense Lake Victoria.",
       "restaurants": "Tamarai Restaurant, 7 Hills Revolving Restaurant, Khana Khazana",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Speke Hotel, Kampala Serena Hotel, Airport View Hotel",
+      "landmarks": "Murchison Falls National Park, Queen Elizabeth National Park, Lake Mburo National Park"
     }, {
       "id": "US",
       "country": "United States of America",
       "population": "326,625,792",
-      "information": "Information Text",
+      "information": "USA is a country which consists of roughly 50 states, covering a swath of North America with the Pacific Ocean to the east and the North Atlantic Ocean to the west.",
       "restaurants": "Per Se, Orchids at Palm Court, Benu",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "The Hay-Adams, The Peninsula Chicago, Four Seasons Hotel",
+      "landmarks": "Grand Canyon, Statue of Liberty, Disneyland"
     }, {
       "id": "UY",
       "country": "Uruguay",
       "population": "3,360,148",
-      "information": "Information Text",
+      "information": "Uruguay is known for its verdant interior and beach-lined coasts.",
       "restaurants": "Restaurant Tandory, Empanadas Carolina, La Pulperia",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Radisson Montevideo Victoria Plaza Hotel, The Grand Hotel, Sheraton Montevideo Hotel",
+      "landmarks": "Plaza Independence, Pocitos, Palacio Salvo"
     },  {
       "id": "UZ",
       "country": "Uzbekistan",
       "population": "29,748,860",
-      "information": "Information Text",
+      "information": "Uzbekistan is known for its mosques, mausoleums and other sites linked to the Silk Road, which was an ancient trade route between China and the Mediterranean.",
       "restaurants": "The Irish Pub & Restaurant, Afsona, City Grill",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Wyndham Tashkent Hotel, Radisson Blu Hotel, Miran International Hotel",
+      "landmarks": "Registan, Gur-e-Amir, Shah-i-Zinda"
     }, {
       "id": "VE",
       "country": "Venezuela",
       "population": "31,304,016",
-      "information": "Information Text",
+      "information": "Venezuela is popular with its tropical resort islands.",
       "restaurants": "Arepa Factory, Restaurante Maute Grill, Rest. La Casa Bistro",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "JW Marriott Hotel, Venezuela Marriott Hotel Playa Grande, Renaissance Caracas La Castellana Hotel",
+      "landmarks": "Angel Falls, Canaima National Park, Morrocoy National Park"
     }, {
       "id": "VN",
       "country": "Vietnam",
       "population": "96,160,160",
-      "information": "Information Text",
+      "information": "Vietnam is most known for its beaches, rivers, pagodas and bustling cities. There are still remnants from past wars scattered in Vietnam.",
       "restaurants": "Poke Saigon Ly Tu Trong, Home Finest Saigon Restaurant, Li Bai Chinese Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hue Serene Palace Hotel, Silverland Yen Hotel, Oriental Suites Hotel & Spa",
+      "landmarks": "Ha Long Bay, Cat Ba Island, Phu Qouc"
     }, {
       "id": "VU",
       "country": "Vanuatu",
       "population": "282,814",
-      "information": "Information Text",
+      "information": "Vanuatu is made up of roughly 80 islands that stretches 1300 kilometers and offers many scuba diving activities.",
       "restaurants": "Reefers Bar & Grill, The Stonegrill Restaurant, The Beach Bar",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Holiday Inn Resort, Cocomo Resort, Olympic Hotel",
+      "landmarks": "Million Dollar Point, Millennium Cave, Mystery Island"
     }, {
       "id": "YE",
       "country": "Yemen",
       "population": "28,036,828",
-      "information": "Information Text",
+      "information": "Yemen is the second largest Arab state covering roughly 530,000 square kilometers.",
       "restaurants": "Mumbai Darbar Indian Restaurant, Reem Restaurant, Dark House Restaurants",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Sheba Hotel, Albustan Luxurious Suites, Lamar Hotel",
+      "landmarks": "Dar al-Hajar, Marib Dam, Shahara"
     }, {
       "id": "ZA",
       "country": "South Africa",
       "population": "54,841,552",
-      "information": "Information Text",
+      "information": "South Africa is situated on the southern-most tip of the African continent and consists of several distinct ecosystems.",
       "restaurants": "La Colombe Restaurant, The Test Kitchen, The Restaurant at Waterkloof",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "The Oyster Box Hotel, The Palace of the Lost City, Cape Grace Hotel",
+      "landmarks": "Kruger National Park, Table Mountain, Boulders Beach"
     }, {
       "id": "ZM",
       "country": "Zambia",
       "population": "15,972,000",
-      "information": "Information Text",
+      "information": "Zambia is a landlocked country which consists of rugged terrain and diverse wildlife.",
       "restaurants": "Ocean Basket Restaurant, Taste by Rootz, Marlin Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Radisson Blu Hotel, Best Western Plus Lusaka Grand Hotel, Royal Livingstone Victoria Falls Hotel",
+      "landmarks": "Victoria Falls, South Luangwa National Park, Kafue National Park"
     }, {
       "id": "ZW",
       "country": "Zimbabwe",
       "population": "13,805,084",
-      "information": "Information Text",
+      "information": "Zimbabwe is a landlocked country which has many reserves and diverse wildlife, most of which are contained in controlled parks.",
       "restaurants": "Amanzi Restaurant, Victoria 22 Restaurant, Chang Thai Restaurant",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Victoria Falls Safari Club, Meikkles Hotel, Victoria Falls Hotel",
+      "landmarks": "Hwange National Park, Matobo National Park, Mana Pools National Park"
     }],
   },
   // Refer to: https://docs.amcharts.com/3/javascriptmaps/AreasSettings
