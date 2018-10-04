@@ -19,37 +19,41 @@ function nextMonth() {
 };
 
 // Pop-up Information Box (Modal Box)
-// Self Note: Try and find a way to remove this redundant mess in future Sprint -- placeholder
-var modal = document.querySelector("#modal");                   // Get ID Modal
+// Set each variable to be Loosely Coupled so that future changes to object functions can be easily changed here
+var modal = [document.querySelector(".restaurantModal"),
+             document.querySelector(".hotelModal"),
+             document.querySelector(".landmarkModal")];
 
-var restaurantBtn = document.querySelector(".restaurantBtn");   // Get Class Button
-restaurantBtn.addEventListener("click", function() {            // Assign Button with 'click' function
-  modal.style.display = "block";                                // Set CSS property of Modal to 'block' display
+var mapButton = [document.querySelector(".restaurantBtn"),
+                 document.querySelector(".hotelBtn"),
+                 document.querySelector(".landmarkBtn")];
+
+var closeIcon = [document.querySelector(".rmCloseIcon"),
+                 document.querySelector(".hmCloseIcon"),
+                 document.querySelector(".lmCloseIcon")];
+
+mapButton[0].addEventListener("click", function() {              // Assign Button with 'click' function
+  modal[0].style.display = "block";                              // Call first index of modal property and change style
 });
 
-var hotelBtn = document.querySelector(".hotelBtn");
-hotelBtn.addEventListener("click", function() {
-  modal.style.display = "block"
+mapButton[1].addEventListener("click", function() {
+  modal[1].style.display = "block"
 });
 
-var landmarkBtn = document.querySelector(".landmarkBtn");
-landmarkBtn.addEventListener("click", function() {
-  modal.style.display = "block"
+mapButton[2].addEventListener("click", function() {
+  modal[2].style.display = "block"
 });
 
-var rmCloseIcon = document.querySelector(".rmCloseIcon");              // Repeat same for different Class
-rmCloseIcon.addEventListener("click", function() {
-  modal.style.display = "none";                                        // This time, set CSS display style to 'none'
+closeIcon[0].addEventListener("click", function() {
+  modal[0].style.display = "none";                                        // This time, set CSS display style to 'none'
 });
 
-var hmCloseIcon = document.querySelector(".hmCloseIcon");
-hmCloseIcon.addEventListener("click", function() {
-  modal.style.display = "none";
+closeIcon[1].addEventListener("click", function() {
+  modal[1].style.display = "none";
 });
 
-var lmCloseIcon = document.querySelector(".lmCloseIcon");
-lmCloseIcon.addEventListener("click", function() {
-  modal.style.display = "none";
+closeIcon[2].addEventListener("click", function() {
+  modal[2].style.display = "none";
 });
 
 // Keydown events
@@ -57,15 +61,21 @@ document.onkeydown = function(evt) {
   // If corresponding key value is pressed...
   if (evt.keyCode == 27) {
     // ...Change CSS property
-    modal.style.display = "none";
+    modal[0].style.display = "none";
+    modal[1].style.display = "none";
+    modal[2].style.display = "none";
   }
 };
 
 // Onclick events
 document.onclick = function(evt) {
   // If current event target IS modal...
-  if (evt.target == modal) {
+  if (evt.target == modal[0]) {
     // ...Change CSS property
-    modal.style.display = "none";
+    modal[0].style.display = "none";
+  } else if (evt.target == modal[1]) {
+    modal[1].style.display = "none";
+  } else if (evt.target == modal[2]) {
+    modal[2].style.display = "none";
   }
 }
