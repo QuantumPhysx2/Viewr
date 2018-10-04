@@ -40,7 +40,7 @@ landmarkBtn.addEventListener("click", function() {
 
 var rmCloseIcon = document.querySelector(".rmCloseIcon");              // Repeat same for different Class
 rmCloseIcon.addEventListener("click", function() {
-  rmBox.style.display = "none";                                  // This time, set CSS display style to 'none'
+  rmBox.style.display = "none";                                        // This time, set CSS display style to 'none'
 });
 
 var hmCloseIcon = document.querySelector(".hmCloseIcon");
