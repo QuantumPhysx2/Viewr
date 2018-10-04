@@ -63,3 +63,17 @@ document.onkeydown = function(evt) {
     lmBox.style.display = "none";
   }
 };
+
+document.onclick = function(evt) {
+  var restaurantModal = document.querySelector(".restaurantModal");
+  var hotelModal = document.querySelector(".hotelModal");
+  var landmarkModal = document.querySelector(".landmarkModal");
+
+  if (evt.target == restaurantModal) {
+    restaurantModal.style.display = "none";
+  } else if (evt.target == hotelModal) {
+    hotelModal.style.display = "none";
+  } else if (evt.target == landmarkModal) {
+    landmarkModal.style.display = "none";
+  }
+}
