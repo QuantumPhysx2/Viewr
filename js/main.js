@@ -20,60 +20,52 @@ function nextMonth() {
 
 // Pop-up Information Box (Modal Box)
 // Self Note: Try and find a way to remove this redundant mess in future Sprint -- placeholder
-var rmBox = document.querySelector("#RMBox");                   // Get ID Modal
+var modal = document.querySelector("#modal");                   // Get ID Modal
+
 var restaurantBtn = document.querySelector(".restaurantBtn");   // Get Class Button
 restaurantBtn.addEventListener("click", function() {            // Assign Button with 'click' function
-  rmBox.style.display = "block";                                // Set CSS property of Modal to 'block' display
+  modal.style.display = "block";                                // Set CSS property of Modal to 'block' display
 });
 
-var hmBox = document.querySelector("#HMBox");
 var hotelBtn = document.querySelector(".hotelBtn");
 hotelBtn.addEventListener("click", function() {
-  hmBox.style.display = "block"
+  modal.style.display = "block"
 });
 
-var lmBox = document.querySelector("#LMBox");
 var landmarkBtn = document.querySelector(".landmarkBtn");
 landmarkBtn.addEventListener("click", function() {
-  lmBox.style.display = "block"
+  modal.style.display = "block"
 });
 
 var rmCloseIcon = document.querySelector(".rmCloseIcon");              // Repeat same for different Class
 rmCloseIcon.addEventListener("click", function() {
-  rmBox.style.display = "none";                                        // This time, set CSS display style to 'none'
+  modal.style.display = "none";                                        // This time, set CSS display style to 'none'
 });
 
 var hmCloseIcon = document.querySelector(".hmCloseIcon");
 hmCloseIcon.addEventListener("click", function() {
-  hmBox.style.display = "none";
+  modal.style.display = "none";
 });
 
 var lmCloseIcon = document.querySelector(".lmCloseIcon");
 lmCloseIcon.addEventListener("click", function() {
-  lmBox.style.display = "none";
+  modal.style.display = "none";
 });
 
 // Keydown events
 document.onkeydown = function(evt) {
   // If corresponding key value is pressed...
   if (evt.keyCode == 27) {
-    // ...Change css property
-    rmBox.style.display = "none";
-    hmBox.style.display = "none";
-    lmBox.style.display = "none";
+    // ...Change CSS property
+    modal.style.display = "none";
   }
 };
 
+// Onclick events
 document.onclick = function(evt) {
-  var restaurantModal = document.querySelector(".restaurantModal");
-  var hotelModal = document.querySelector(".hotelModal");
-  var landmarkModal = document.querySelector(".landmarkModal");
-
-  if (evt.target == restaurantModal) {
-    restaurantModal.style.display = "none";
-  } else if (evt.target == hotelModal) {
-    hotelModal.style.display = "none";
-  } else if (evt.target == landmarkModal) {
-    landmarkModal.style.display = "none";
+  // If current event target IS modal...
+  if (evt.target == modal) {
+    // ...Change CSS property
+    modal.style.display = "none";
   }
 }
