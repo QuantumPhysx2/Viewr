@@ -1263,10 +1263,10 @@ var map = AmCharts.makeChart("chartdiv", {
       "id": "TJ",
       "country": "Tajikistan",
       "population": "8,468,555",
-      "information": "Information Text",
+      "information": "Tajikstan is a country surrounded by Afghanistan, China, Kyrgyzstan and Uzbekistan and is known for its rugged mountainous terrain. Popular for hiking and climbing.",
       "restaurants": "Merve Restaurant, Arirang Restaurant, Traktir",
-      "hotels": "",
-      "landmarks": ""
+      "hotels": "Hotel Tajikstan, Atlast Hotel, Hyatt Regency Dushanbe",
+      "landmarks": "Lenin Peak, Fann Mountains, Ismoil Somoni Peak"
     }, {
       "id": "TL",
       "country": "Timor-Leste",
@@ -1450,9 +1450,6 @@ map.addListener("clickMapObject", function(evt) {
   document.querySelector("#population").innerHTML = "<p>" + "Estimate population: " + evt.mapObject.population + "</p>";
   document.querySelector("#information").innerHTML = "<p>" + evt.mapObject.information + "</p>";
 
-
-  // CURRENT TESTING VERSION ------ REMOVE ME WHEN I WORK BETTER
-  // Note: Requires user to be interested before anything appears [aka: click on a country stupid]
   document.querySelector(".popularRestaurants").innerHTML = "<p>" + evt.mapObject.restaurants + "</p>";
   document.querySelector(".popularHotels").innerHTML = "<p>" + evt.mapObject.hotels + "</p>";
   document.querySelector(".popularLandmarks").innerHTML = "<p>" + evt.mapObject.landmarks + "</p>";

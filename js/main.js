@@ -1,65 +1,72 @@
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-var year = ["2018"];
-
-var index = 1;
-
-function nextMonth() {
-  // If iterable object is less than the amount of attributes in list...
-  if (index < months.length) {
-    // ...Change CLASS "month-header" HTML to current index attribute in list
-    document.getElementById("month-header").innerHTML = months[index];
-    // ...Add index by +1
-    index++;
-  // Elif the index reaches December...
-  } else if (index == months.length) {
-    // ...Reset index to zero to repeat cycle
-    document.getElementById("year").innerHTML = year++;   // FIX ME -- Currently changing on second year
-    index = 0;
-  }
-};
-
 // Pop-up Information Box (Modal Box)
-// Self Note: Try and find a way to remove this redundant mess in future Sprint -- placeholder
-var rmBox = document.querySelector("#RMBox");                   // Get ID Modal
-var restaurantBtn = document.querySelector(".restaurantBtn");   // Get Class Button
-restaurantBtn.addEventListener("click", function() {            // Assign Button with 'click' function
-  rmBox.style.display = "block";                                // Set CSS property of Modal to 'block' display
+// Set each variable to be Loosely Coupled so that future changes to object functions can be easily changed here
+var modal = [document.querySelector(".restaurantModal"),
+             document.querySelector(".hotelModal"),
+             document.querySelector(".landmarkModal"),
+             document.querySelector(".descriptionModal")];
+
+var mapButton = [document.querySelector(".restaurantBtn"),
+                 document.querySelector(".hotelBtn"),
+                 document.querySelector(".landmarkBtn"),
+                 document.querySelector(".descriptionBtn")];
+
+var closeIcon = [document.querySelector(".rmCloseIcon"),
+                 document.querySelector(".hmCloseIcon"),
+                 document.querySelector(".lmCloseIcon"),
+                 document.querySelector(".dscCloseIcon")];
+
+mapButton[0].addEventListener("click", function() {              // Assign Button with 'click' function
+  modal[0].style.display = "block";                              // Call first index of modal property and change style
 });
 
-var hmBox = document.querySelector("#HMBox");
-var hotelBtn = document.querySelector(".hotelBtn");
-hotelBtn.addEventListener("click", function() {
-  hmBox.style.display = "block"
+mapButton[1].addEventListener("click", function() {
+  modal[1].style.display = "block";
 });
 
-var lmBox = document.querySelector("#LMBox");
-var landmarkBtn = document.querySelector(".landmarkBtn");
-landmarkBtn.addEventListener("click", function() {
-  lmBox.style.display = "block"
+mapButton[2].addEventListener("click", function() {
+  modal[2].style.display = "block";
 });
 
-var rmCloseIcon = document.querySelector(".rmCloseIcon");              // Repeat same for different Class
-rmCloseIcon.addEventListener("click", function() {
-  rmBox.style.display = "none";                                  // This time, set CSS display style to 'none'
+mapButton[3].addEventListener("click", function() {
+  modal[3].style.display = "block";
+})
+
+closeIcon[0].addEventListener("click", function() {
+  modal[0].style.display = "none";                                        // This time, set CSS display style to 'none'
 });
 
-var hmCloseIcon = document.querySelector(".hmCloseIcon");
-hmCloseIcon.addEventListener("click", function() {
-  hmBox.style.display = "none";
+closeIcon[1].addEventListener("click", function() {
+  modal[1].style.display = "none";
 });
 
-var lmCloseIcon = document.querySelector(".lmCloseIcon");
-lmCloseIcon.addEventListener("click", function() {
-  lmBox.style.display = "none";
+closeIcon[2].addEventListener("click", function() {
+  modal[2].style.display = "none";
+});
+
+closeIcon[3].addEventListener("click", function() {
+  modal[3].style.display = "none";
 });
 
 // Keydown events
 document.onkeydown = function(evt) {
   // If corresponding key value is pressed...
   if (evt.keyCode == 27) {
-    // ...Change css property
-    rmBox.style.display = "none";
-    hmBox.style.display = "none";
-    lmBox.style.display = "none";
+    // ...Change CSS property
+    modal[0].style.display = "none";
+    modal[1].style.display = "none";
+    modal[2].style.display = "none";
+    modal[3].style.display = "none";
   }
 };
+
+// Onclick events
+document.onclick = function(evt) {
+  // If current event target IS active on any of the listed modals...
+  if (evt.target == modal[0] || evt.target == modal[1] || evt.target == modal[2] || evt.target == modal[3]) {
+    // ...Change CSS property
+    modal[0].style.display = "none";
+    modal[1].style.display = "none";
+    modal[2].style.display = "none";
+    modal[3].style.display = "none";
+  }
+}
