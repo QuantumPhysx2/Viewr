@@ -67,10 +67,6 @@ main {
   height: 600px;
 }
 
-.country-desc {
-  font-weight: bold;
-}
-
 path:hover {
   fill: #52adff;
 }
@@ -193,7 +189,6 @@ footer {
     margin: 0px 10px;
     padding: 0px 2px;
   }
-
 
   .search-section {
     width: 100%;
