@@ -25,18 +25,10 @@
       <div class="search-section">
           <input type="text" id="searchbar" placeholder="Search for country..."></input>
       </div>
-
-
       -->
 
       <div class="container">
         <div id="chartdiv"></div>
-
-        <div class="chart-information">
-          <div id="country"></div>
-          <div id="population"></div>
-          <div class="country-desc" id="information"></div>
-        </div>
       </div>
 
       <div class="restaurantModal">
@@ -83,74 +75,34 @@
           </div>
         </div>
       </div>
+
+      <div class="descriptionModal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="dscCloseIcon">&times;</span>
+            <h1>Country Description</h1>
+          </div>
+          <div class="modal-body">
+            <div class="chart-information">
+              <div id="country"></div>
+              <div id="population"></div>
+              <div class="country-desc" id="information"></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <h1>Footer</h1>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
-      <!--
-      <div class="calendar">
-        <div class="month">
-          <ul class="top-section">
-            <li class="prev" id="prevMonthBtn"><a class="prev-month">&#10094;</a></li>
-            <li class="next" id="nextMonthBtn"><a class="next-month" onclick="nextMonth()">&#10095;</a></li>
-            <li>
-              <h1 id="month-header">January</h1>
-              <p id="year">2018</p>
-            </li>
-          </ul>
-        </div>
-        <div class="weekdays">
-          <ul>
-            <li>Mon</li>
-            <li>Tue</li>
-            <li>Wed</li>
-            <li>Thu</li>
-            <li>Fri</li>
-            <li>Sat</li>
-            <li>Sun</li>
-          </ul>
-        </div>
-        <div class="days">
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
-            <li>7</li>
-            <li>8</li>
-            <li>9</li>
-            <li>10</li>
-            <li>11</li>
-            <li>12</li>
-            <li>13</li>
-            <li>14</li>
-            <li>15</li>
-            <li>16</li>
-            <li>17</li>
-            <li>18</li>
-            <li>19</li>
-            <li>20</li>
-            <li>21</li>
-            <li>22</li>
-            <li>23</li>
-            <li>24</li>
-            <li>25</li>
-            <li>26</li>
-            <li>27</li>
-            <li>28</li>
-            <li>29</li>
-            <li>30</li>
-            <li>31</li>
-          </ul>
-        </div>
-      </div>
-      -->
       <div class="top-footer">
         <div class="top-menu">
           <button class="restaurantBtn" id="menuBtn"><i class="fa fa-glass"></i>Restaruants</button>
           <button class="hotelBtn" id="menuBtn"><i class="fa fa-hotel"></i>Hotels</button>
           <button class="landmarkBtn" id="menuBtn"><i class="fa fa-flag-o"></i>Landmarks</button>
+          <button class="descriptionBtn" id="menuBtn"><i class="fa fa-question-circle-o"></i>Description</button>
         </div>
       </div>
 

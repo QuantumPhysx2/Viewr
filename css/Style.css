@@ -67,10 +67,6 @@ main {
   height: 600px;
 }
 
-.chart-information {
-  border-top: 1px solid #222;
-}
-
 .country-desc {
   font-weight: bold;
 }
@@ -81,7 +77,8 @@ path:hover {
 
 .restaurantModal,
 .hotelModal,
-.landmarkModal {
+.landmarkModal,
+.descriptionModal {
   display: none;
   position: fixed;
   z-index: 1;
@@ -118,11 +115,6 @@ path:hover {
   color: #222;
 }
 
-.modal-header,
-.modal-footer {
-  background-color: #0f8be3;
-}
-
 .modal-content h1,
 .modal-content p {
   padding-top: 3px;
@@ -131,7 +123,8 @@ path:hover {
 
 .rmCloseIcon,
 .hmCloseIcon,
-.lmCloseIcon {
+.lmCloseIcon,
+.dscCloseIcon {
   color: #222;
   float: right;
   font-size: 28px;
@@ -143,7 +136,9 @@ path:hover {
 .hmCloseIcon:hover,
 .hmCloseIcon:focus,
 .lmCloseIcon:hover,
-.lmCloseIcon:focus {
+.lmCloseIcon:focus,
+.dscCloseIcon:hover,
+.dscCloseIcon:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -159,7 +154,7 @@ footer {
 
 .top-menu {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .top-menu i {
@@ -175,7 +170,8 @@ footer {
 }
 
 .top-menu #menuBtn:nth-child(1),
-.top-menu #menuBtn:nth-child(2) {
+.top-menu #menuBtn:nth-child(2),
+.top-menu #menuBtn:nth-child(3) {
   border-right: 1px solid #fff;
 }
 
@@ -188,76 +184,6 @@ footer {
 
 .bottom-footer p {
   font-size: 16px;
-}
-
-.month {
-  padding: 70px 25px;
-  background: #52adff;
-}
-
-.month h1 {
-  font-size: 19px;
-}
-
-.month ul {
-  margin: 0;
-  padding: 0;
-}
-
-.month ul li {
-  color: white;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-
-.prev {
-  float: left;
-}
-
-.prev-month,
-.next-month {
-  cursor: pointer;
-}
-
-.next {
-  float: right;
-}
-
-.weekdays {
-  margin: 0;
-  padding: 10px 0;
-  background-color: #ddd;
-}
-
-.weekdays ul li {
-  display: inline-block;
-  width: 13.6%;
-  color: #666;
-  text-align: center;
-}
-
-.days {
-  padding: 10px 0;
-  background: #eee;
-  margin: 0;
-}
-
-.days ul li {
-  display: inline-block;
-  margin: 0px 0px 13px 0px;
-  padding: 13px 0px 0px 0px;
-  width: 260px;
-  height: 100px;
-  border: 1px solid #222;
-  list-style-type: none;
-  font-size: 17px;
-  color: #222;
-}
-
-.days ul li .active {
-  padding: 5px;
-  background: #52adff;
-  color: white;
 }
 
 /*Media Queries*/
@@ -418,13 +344,13 @@ footer {
   }
 
   main {
-    grid-template-rows: 40px 1fr;
+    grid-template-rows: 1fr;
     margin: 1px;
     padding: 1px;
   }
 
   .container {
-    height: 433px;
+    height: 410px;
     margin: 1px;
     max-width: 100%;
   }
@@ -438,15 +364,17 @@ footer {
   }
 
   #chartdiv {
-    height: 320px;
+    min-height: 320px;
+    height: 100%;
   }
 
   .modal-body p {
     font-size: 15px;
   }
 
-  .top-menu button {
-    font-size: 15px;
+  .top-menu #menuBtn {
+    font-size: 19px;
+    height: 50px;
   }
 
   .bottom-footer p {
@@ -461,6 +389,7 @@ footer {
     padding: 0px 11px;
   }
 
+  /*Don't forget me please! --Searchbar*/
   .search-section {
     width: 100%;
     margin: 0px;
@@ -472,13 +401,13 @@ footer {
   }
 
   main {
-    grid-template-rows: 45px 1fr;
+    grid-template-rows: 1fr;
     margin: 1px;
     padding: 1px;
   }
 
   .container {
-    height: 434px;
+    height: 407px;
     margin: 1px;
   }
 
@@ -492,15 +421,16 @@ footer {
 
   #chartdiv {
     min-height: 250px;
-    height: 70%;
+    height: 100%;
   }
 
   .modal-body p {
     font-size: 13px;
   }
 
-  .top-menu button {
-    font-size: 13px;
+  .top-menu #menuBtn {
+    font-size: 12px;
+    height: 50px;
   }
 
   .bottom-footer p {
