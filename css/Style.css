@@ -34,13 +34,13 @@ body {
 main {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 15px;
+  margin: 0px 15px;
   min-height: 100%;
   text-align: center;
 }
 
 .search-section {
-  padding-bottom: 10px;
+  padding: 10px 0px;
 }
 
 .search-section input {
@@ -139,33 +139,31 @@ path:hover {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(6, 1fr);
-  padding-top: 15px;
+  padding: 15px 0px;
 }
 
 #card {
-  height: 100%;
+  height: 115px;
   margin: 0px 10px;
-  background-color: #fff;
+  color: #fff;
+  background-color: #248dad;
+  border-radius: 1px;
 }
 
-#card:nth-child(1) {
-  background-color: red;
+#card p {
+  font-size: 17px;
 }
 
-#card:nth-child(2) {
-  background-color: cyan;
+#card i {
+  padding-right: 10px;
 }
 
-#card:nth-child(3) {
-  background-color: yellow;
+#card > .card-content {
+  padding: 7px
 }
 
-#card:nth-child(4) {
-  background-color: orange;
-}
-
-#card:nth-child(5) {
-  background-color: pink;
+.card-header {
+  border-bottom: 1px solid #222;
 }
 
 /*Page Footer*/

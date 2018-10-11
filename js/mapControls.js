@@ -1448,11 +1448,15 @@ map.addListener("clickMapObject", function(evt) {
   // Find ID and change inner HTML with retrieved object's ID and Title properties
   document.querySelector("#country").innerHTML = "<h1>" + evt.mapObject.country + "</h1>";
   document.querySelector("#population").innerHTML = "<p>" + "Estimate population: " + evt.mapObject.population + "</p>";
-  document.querySelector("#information").innerHTML = "<p>" + evt.mapObject.information + "</p>";
+  document.querySelector(".country-desc").innerHTML = "<p>" + evt.mapObject.information + "</p>";
 
   document.querySelector(".popularRestaurants").innerHTML = "<p>" + evt.mapObject.restaurants + "</p>";
   document.querySelector(".popularHotels").innerHTML = "<p>" + evt.mapObject.hotels + "</p>";
   document.querySelector(".popularLandmarks").innerHTML = "<p>" + evt.mapObject.landmarks + "</p>";
+
+  document.querySelector(".restaurants").innerHTML = "<p>" + evt.mapObject.restaurants + "</p>";
+  document.querySelector(".hotels").innerHTML = "<p>" + evt.mapObject.hotels + "</p>";
+  document.querySelector(".landmarks").innerHTML = "<p>" + evt.mapObject.landmarks + "</p>";
 
   // Refer to: https://stackoverflow.com/questions/4365246/how-to-change-href-of-a-tag-on-button-click-through-javascript
 
