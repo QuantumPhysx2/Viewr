@@ -9,7 +9,7 @@
 header {
   display: grid;
   grid-template-rows: 1fr;
-  background: #ebe9e7;
+  background: #fff;
 }
 
 .top-header .logo {
