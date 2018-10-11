@@ -73,7 +73,7 @@ var map = AmCharts.makeChart("chartdiv", {
       "population": "23,232,412",
       "information": "Australia is a continental country surrounded by the Indian and Pacific oceans.",
       "restaurants": "Momofuku Seiobo, Bennelong Restaurant, Quay Restaruant Sydney",
-      "hotels": "Bedarra Island Resort, Ovolo Woolloomooloo Hotel, Park Hyatt Sydney",
+      "hotels": [["Bedarra Island Resort"], ["Ovolo Woolloomooloo Hotel"], ["Park Hyatt Sydney"]],
       "landmarks": "Sydney Opera House, Great Barrier Reef, Great Ocean Road"
     }, {
       "id": "AZ",
@@ -1451,12 +1451,10 @@ map.addListener("clickMapObject", function(evt) {
   document.querySelector(".country-desc").innerHTML = "<p>" + evt.mapObject.information + "</p>";
 
   document.querySelector(".popularRestaurants").innerHTML = "<p>" + evt.mapObject.restaurants + "</p>";
-  document.querySelector(".popularHotels").innerHTML = "<p>" + evt.mapObject.hotels + "</p>";
+  document.querySelector(".popularHotels").innerHTML = "<p>" + evt.mapObject.hotels[0] + "</p>";
+  document.querySelector(".popularHotels2").innerHTML = "<p>" + evt.mapObject.hotels[1] + "</p>";
+  document.querySelector(".popularHotels3").innerHTML = "<p>" + evt.mapObject.hotels[2] + "</p>";
   document.querySelector(".popularLandmarks").innerHTML = "<p>" + evt.mapObject.landmarks + "</p>";
-
-  document.querySelector(".restaurants").innerHTML = "<p>" + evt.mapObject.restaurants + "</p>";
-  document.querySelector(".hotels").innerHTML = "<p>" + evt.mapObject.hotels + "</p>";
-  document.querySelector(".landmarks").innerHTML = "<p>" + evt.mapObject.landmarks + "</p>";
 
   // Refer to: https://stackoverflow.com/questions/4365246/how-to-change-href-of-a-tag-on-button-click-through-javascript
 
