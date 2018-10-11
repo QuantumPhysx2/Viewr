@@ -19,13 +19,9 @@
     </header>
 
     <main>
-      <!--
-      Searchbar is causing some strange screen changes (NOTE: CSS properties are still present in Stylesheet)
-
       <div class="search-section">
           <input type="text" id="searchbar" placeholder="Search for country..."></input>
       </div>
-      -->
 
       <div class="container">
         <div id="chartdiv"></div>
@@ -80,17 +76,54 @@
         <div class="modal-content">
           <div class="modal-header">
             <span class="dscCloseIcon">&times;</span>
-            <h1>Country Description</h1>
+            <h1 id="country">Country description</h1>
           </div>
           <div class="modal-body">
             <div class="chart-information">
-              <div id="country"></div>
               <div id="population"></div>
-              <div class="country-desc" id="information"></div>
+              <p class="country-desc" id="information">Click on a country to get a description</p>
             </div>
           </div>
           <div class="modal-footer">
             <h1>Footer</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="gimp">
+        <div class="populationCard" id="card">
+          <div class="card-information">
+            <h1>Population</h1>
+          </div>
+        </div>
+
+        <div class="restaurantCard" id="card">
+          <div class="card-information">
+            <i class="fa fa-glass"></i><h1>Restaurants</h1>
+          </div>
+        </div>
+
+        <div class="hotelCard" id="card">
+          <div class="card-information">
+            <i class="fa fa-hotel"></i><h1>Hotels</h1>
+          </div>
+        </div>
+
+        <div class="landmarkCard" id="card">
+          <div class="card-information">
+            <i class="fa fa-flag-o"></i><h1>Landmarks</h1>
+          </div>
+        </div>
+
+        <div class="landmarkCard" id="card">
+          <div class="card-information">
+            <i class="fa fa-question-circle-o"></i><h1>Country Description</h1>
+          </div>
+        </div>
+
+        <div class="flagCard" id="card">
+          <div class="card-information">
+            <h1>Country Flag</h1>
           </div>
         </div>
       </div>

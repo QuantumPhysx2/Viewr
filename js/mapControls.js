@@ -1454,8 +1454,6 @@ map.addListener("clickMapObject", function(evt) {
   document.querySelector(".popularHotels").innerHTML = "<p>" + evt.mapObject.hotels + "</p>";
   document.querySelector(".popularLandmarks").innerHTML = "<p>" + evt.mapObject.landmarks + "</p>";
 
-
-
   // Refer to: https://stackoverflow.com/questions/4365246/how-to-change-href-of-a-tag-on-button-click-through-javascript
 
   // Logic to flexibly add every tag in each modal

@@ -39,17 +39,12 @@ main {
   text-align: center;
 }
 
-.land {
-  fill: #344150;
-  fill-opacity: 1;
-  stroke: white;
-  stroke-opacity: 1;
-  stroke-width: 0.5;
-  transition: 0.35s;
+.search-section {
+  padding-bottom: 10px;
 }
 
-.land:hover {
-  fill: #52adff;
+.search-section input {
+  width: 55%;
 }
 
 .container {
@@ -138,6 +133,39 @@ path:hover {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.gimp {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 15px;
+}
+
+#card {
+  height: 100%;
+  margin: 0px 10px;
+  background-color: #fff;
+}
+
+#card:nth-child(1) {
+  background-color: red;
+}
+
+#card:nth-child(2) {
+  background-color: cyan;
+}
+
+#card:nth-child(3) {
+  background-color: yellow;
+}
+
+#card:nth-child(4) {
+  background-color: orange;
+}
+
+#card:nth-child(5) {
+  background-color: pink;
 }
 
 /*Page Footer*/
