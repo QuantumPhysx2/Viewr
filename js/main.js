@@ -77,13 +77,10 @@ document.onclick = function(evt) {
 if ("serviceWorker" in navigator) {
   // If so, add the LOAD event listener
 	window.addEventListener("load", function() {
+		navigator.serviceWorker
     // Register the assigned file as the service worker file
-<<<<<<< HEAD
-		navigator.serviceWorker.register("sw.js").then(function(registration) {
-=======
     .register("./sw.js")
     .then(function(registration) {
->>>>>>> 750b699d837d9f81ffd1ec332668f456a7c9aa95
       // If correct, log the result as a success
 			console.log("[Service Worker] Success", registration.scope);
 		}, function(err) {
