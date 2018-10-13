@@ -73,14 +73,18 @@ document.onclick = function(evt) {
   }
 }
 
+// Check if browser supports service workers
 if ("serviceWorker" in navigator) {
+  // If so, add the LOAD event listener
 	window.addEventListener("load", function() {
 		navigator.serviceWorker
-    .register("js/sw.js")
+    // Register the assigned file as the service worker file
+    .register("sw.js")
     .then(function(registration) {
-			console.log("Success", registration);
+      // If correct, log the result as a success
+			console.log("[Service Worker] Success", registration.scope);
 		}, function(err) {
-			console.log("Fail", err);
+			console.log("[Service Worker] Fail", err);
 		})
 	})
 };

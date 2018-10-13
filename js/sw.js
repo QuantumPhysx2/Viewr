@@ -2,13 +2,10 @@ var CACHE_TITLE = 'my-site-cache';
 var CACHE_VERSION = 'v1';
 var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
 var urlsToCache = [
-  "./index.html",
-  "../css/Style.css",
-  "../js/main.js",
-  "../js/mapControls.js",
-  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
-  "https://www.amcharts.com/lib/3/ammap.js",
-  "https://www.amcharts.com/lib/3/maps/js/worldLow.js",
+  "index.html",
+  "./css/Style.css",
+  "main.js",
+  "mapControls.js",
 ];
 
 self.addEventListener("install", function(event) {
