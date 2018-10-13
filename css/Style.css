@@ -305,13 +305,15 @@ footer {
 /*Mobile (425px)*/
 @media (max-width: 425px) and (min-width: 376px) {
   .top-header .logo {
-    margin: 0px 92px;
-    padding: 0px 7px;
+    width: 140px;
+    margin: 0px;
+    padding: 3px 0px 0px 0px;
   }
 
   .search-section {
     width: 98.8%;
     margin: 0px;
+    padding: 3px 0px;
   }
 
   .search-section input {
@@ -326,7 +328,7 @@ footer {
   }
 
   .container {
-    height: 381px;
+    height: 350px;
     margin: 1px;
   }
 
@@ -351,6 +353,10 @@ footer {
     height: 50px;
   }
 
+  .top-menu p {
+    font-size: 16px;
+  }
+
   .bottom-footer p {
     font-size: 12px;
   }
@@ -359,13 +365,15 @@ footer {
 /*Mobile (375px)*/
 @media (max-width: 375px) and (min-width: 320px) {
   .top-header .logo {
-    margin: 0px 55px;
-    padding: 0px 19px;
+    width: 130px;
+    margin: 3px 0px 0px 0px;
+    padding: 0px;
   }
 
   .search-section {
     width: 100%;
     margin: 0px;
+    padding: 3px 0px;
   }
 
   .search-section input {
@@ -380,7 +388,7 @@ footer {
   }
 
   .container {
-    height: 410px;
+    height: 375px;
     margin: 1px;
     max-width: 100%;
   }
@@ -395,7 +403,7 @@ footer {
 
   #chartdiv {
     min-height: 320px;
-    height: 100%;
+    height: 375px;
   }
 
   .modal-body p {
@@ -407,6 +415,10 @@ footer {
     height: 50px;
   }
 
+  .top-menu p {
+    font-size: 15px;
+  }
+
   .bottom-footer p {
     font-size: 11px;
   }
@@ -415,19 +427,22 @@ footer {
 /*Mobile (320px)*/
 @media screen and (max-width: 320px) {
   .top-header .logo {
-    margin: 0px 36px;
-    padding: 0px 11px;
+    width: 110px;
+    height: 40px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
   }
 
   /*Don't forget me please! --Searchbar*/
   .search-section {
     width: 100%;
     margin: 0px;
+    padding: 3px 0px 3px 0px;
   }
 
   .search-section input {
     width: 98%;
-    height: 40px;
+    height: 96%;
   }
 
   main {
@@ -437,7 +452,7 @@ footer {
   }
 
   .container {
-    height: 407px;
+    height: 365px;
     margin: 1px;
   }
 
@@ -451,7 +466,7 @@ footer {
 
   #chartdiv {
     min-height: 250px;
-    height: 100%;
+    height: 365px;
   }
 
   .modal-body p {
@@ -461,6 +476,10 @@ footer {
   .top-menu #menuBtn {
     font-size: 12px;
     height: 50px;
+  }
+
+  .top-menu p {
+    font-size: 13px;
   }
 
   .bottom-footer p {

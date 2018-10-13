@@ -1,3 +1,5 @@
+// Service Worker script provided by Week 6 slides + MDN and other resources
+// WARNING: The Service Worker file NEEDS to be in the 'root' directory to work
 var CACHE_TITLE = 'my-site-cache';
 var CACHE_VERSION = 'v1';
 var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
