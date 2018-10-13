@@ -6,6 +6,9 @@ var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
 var urlsToCache = [
   "index.html",
   "css/Style.css",
+  "css/images/PageIcon.ico",
+  "css/images/PageLogo.jpg",
+  "css/images/PageLogoMobile.jpg",
   "js/main.js",
   "js/mapControls.js",
 ];
