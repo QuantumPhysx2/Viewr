@@ -12,13 +12,24 @@ header {
   background: #fff;
 }
 
+.top-header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
 .top-header .logo {
   margin: 10px;
   padding: 2px 11px;
 }
 
-#active {
-  color: #0f8be3;
+.search-section input {
+  width: 80%;
+  height: 35px;
+  margin-top: 22px;
+}
+
+.search-section {
+  padding: 10px 0px;
 }
 
 /*Page Main*/
@@ -26,25 +37,12 @@ body {
   background-color: #222;
 }
 
-.search-section input {
-  width: 50%;
-  height: 35px;
-}
-
 main {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 0px 15px;
+  margin: 10px 10px;
   min-height: 100%;
   text-align: center;
-}
-
-.search-section {
-  padding: 10px 0px;
-}
-
-.search-section input {
-  width: 55%;
 }
 
 .container {
@@ -211,49 +209,14 @@ footer {
 /*Media Queries*/
 /*Laptops (1024px)*/
 @media (max-width: 1024px) and (min-width: 769px) {
+  .top-header {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+  }
+
   .top-header .logo {
     margin: 0px 10px;
     padding: 0px 2px;
-  }
-
-  .search-section {
-    width: 100%;
-    margin: 0px 0px 5px 0px;
-  }
-
-  .search-section input {
-    width: 50%;
-    height: 40px;
-  }
-
-  main {
-    grid-template-rows: 1fr;
-    margin: 5px;
-    padding: 2px;
-  }
-
-  .container h1 {
-    font-size: 22px;
-  }
-
-  .container p {
-    font-size: 16px;
-  }
-
-  .top-footer #menuBtn {
-    height: 55px;
-  }
-
-  .bottom-footer p {
-    font-size: 13px;
-  }
-}
-
-/*Tablets (768px)*/
-@media (max-width: 768px) and (min-width: 426px) {
-  .top-header .logo {
-    margin: 5px;
-    padding: 0px 5px;
   }
 
   .search-section {
@@ -262,19 +225,19 @@ footer {
   }
 
   .search-section input {
-    width: 50%;
+    width: 90%;
     height: 40px;
+    margin-top: 5px;
   }
 
   main {
     grid-template-rows: 1fr;
-    margin: 1px;
-    padding: 1px;
+    margin: 5px;
+    padding: 2px;
   }
 
   .container {
-    margin: 1px;
-    max-width: 100%;
+    height: 500px;
   }
 
   .container h1 {
@@ -286,7 +249,74 @@ footer {
   }
 
   #chartdiv {
-    height: 500px;
+    height: 100%;
+  }
+
+  .top-footer #menuBtn {
+    height: 55px;
+  }
+
+  .top-footer p {
+    font-size: 17px;
+  }
+
+  .bottom-footer p {
+    font-size: 13px;
+  }
+}
+
+/*Tablets (768px)*/
+@media (max-width: 768px) and (min-width: 426px) {
+  .top-header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+
+  .top-header .logo {
+    width: 140px;
+    margin: 7px 0px 0px 0px;
+    padding: 0px;
+  }
+
+  .search-section {
+    width: 100%;
+    margin: 0px;
+    margin-top: 3px;
+    padding: 0px;
+  }
+
+  .search-section input {
+    width: 75%;
+    height: 40px;
+    margin-top: 3px;
+    margin-right: 70px;
+    margin-bottom: 5px;
+    padding: 5px 0px 0px 0px;
+    float: right;
+  }
+
+  main {
+    grid-template-rows: 1fr;
+    margin: 1px;
+    padding: 1px;
+  }
+
+  .container {
+    margin: 1px;
+    max-width: 100%;
+    height: 325px;
+  }
+
+  .container h1 {
+    font-size: 22px;
+  }
+
+  .container p {
+    font-size: 16px;
+  }
+
+  #chartdiv {
+    height: 100%;
   }
 
   .modal-body p {
@@ -297,6 +327,10 @@ footer {
     height: 55px;
   }
 
+  .top-footer p {
+    font-size: 15px;
+  }
+
   .bottom-footer p {
     font-size: 13px;
   }
@@ -304,19 +338,27 @@ footer {
 
 /*Mobile (425px)*/
 @media (max-width: 425px) and (min-width: 376px) {
+  .top-header {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+  }
+
   .top-header .logo {
-    margin: 0px 92px;
-    padding: 0px 7px;
+    width: 140px;
+    margin: 0px;
+    padding: 3px 0px 0px 0px;
   }
 
   .search-section {
     width: 98.8%;
     margin: 0px;
+    padding: 3px 0px;
   }
 
   .search-section input {
-    width: 100%;
+    width: 85%;
     height: 35px;
+    margin-top: 5px;
   }
 
   main {
@@ -326,7 +368,7 @@ footer {
   }
 
   .container {
-    height: 381px;
+    height: 343px;
     margin: 1px;
   }
 
@@ -351,6 +393,10 @@ footer {
     height: 50px;
   }
 
+  .top-menu p {
+    font-size: 16px;
+  }
+
   .bottom-footer p {
     font-size: 12px;
   }
@@ -358,19 +404,31 @@ footer {
 
 /*Mobile (375px)*/
 @media (max-width: 375px) and (min-width: 320px) {
+  .top-header {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+  }
+
   .top-header .logo {
-    margin: 0px 55px;
-    padding: 0px 19px;
+    width: 130px;
+    margin: 3px 0px 0px 0px;
+    padding: 0px;
   }
 
   .search-section {
-    width: 100%;
+    width: 85%;
     margin: 0px;
+    padding: 6px 0px;
   }
 
   .search-section input {
     width: 98.6%;
     height: 35px;
+    margin: 0px;
+  }
+
+  input[type=text] {
+    font-size: 16px;
   }
 
   main {
@@ -380,7 +438,7 @@ footer {
   }
 
   .container {
-    height: 410px;
+    height: 345px;
     margin: 1px;
     max-width: 100%;
   }
@@ -407,6 +465,10 @@ footer {
     height: 50px;
   }
 
+  .top-menu p {
+    font-size: 15px;
+  }
+
   .bottom-footer p {
     font-size: 11px;
   }
@@ -414,20 +476,33 @@ footer {
 
 /*Mobile (320px)*/
 @media screen and (max-width: 320px) {
+  .top-header {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+  }
+
   .top-header .logo {
-    margin: 0px 36px;
-    padding: 0px 11px;
+    width: 110px;
+    height: 40px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
   }
 
   /*Don't forget me please! --Searchbar*/
   .search-section {
-    width: 100%;
+    width: 90%;
     margin: 0px;
+    padding: 3px 0px 3px 0px;
   }
 
   .search-section input {
     width: 98%;
-    height: 40px;
+    height: 96%;
+    margin: 0px;
+  }
+
+  input[type=text] {
+    font-size: 15px;
   }
 
   main {
@@ -437,7 +512,7 @@ footer {
   }
 
   .container {
-    height: 407px;
+    height: 345px;
     margin: 1px;
   }
 
@@ -461,6 +536,10 @@ footer {
   .top-menu #menuBtn {
     font-size: 12px;
     height: 50px;
+  }
+
+  .top-menu p {
+    font-size: 13px;
   }
 
   .bottom-footer p {
