@@ -72,3 +72,15 @@ document.onclick = function(evt) {
     modal[3].style.display = "none";
   }
 }
+
+if ("serviceWorker" in navigator) {
+	window.addEventListener("load", function() {
+		navigator.serviceWorker
+    .register("js/sw.js")
+    .then(function(registration) {
+			console.log("Success", registration);
+		}, function(err) {
+			console.log("Fail", err);
+		})
+	})
+};
