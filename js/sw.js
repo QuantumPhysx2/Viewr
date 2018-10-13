@@ -1,45 +1,41 @@
-var CACHE_TITLE = "my-site-cache";
-var CACHE_VERSION = "v1";
-var CACHE_NAME = CACHE_TITLE + "-" + CACHE_VERSION;
+var CACHE_TITLE = 'my-site-cache';
+var CACHE_VERSION = 'v1';
+var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
 var urlsToCache = [
-  // In this array, we list all the files we want to include for our service worker
-  "/",
+  "index.html",
   "css/Style.css",
+  "js/main.js",
+  "js/mapControls.js",
+  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
   "https://www.amcharts.com/lib/3/ammap.js",
   "https://www.amcharts.com/lib/3/maps/js/worldLow.js",
-  "js/main.js",
-  "js/mapControls.js"
 ];
 
-self.addEventListener("install", function(evt) {
-  evt.waitUntil(
-    // This function requries a cache parameter that is used to return a promise
-    caches.open(CACHE_NAME)
+self.addEventListener("install", function(event) {
+  event.waitUntil(caches.open(CACHE_NAME)
     .then(function(cache) {
-      console.log("Cache Opened");
+      console.log("Opened cache");
       return cache.addAll(urlsToCache);
     })
   );
 });
 
-self.addEventListener("fetch", function(evt) {
-  evt.respondWith(
-    caches.match(evt.request)
+self.addEventListener("fetch", function(event) {
+  event.respondWith(caches.match(event.request)
     .then(function(response) {
-      if(response) {
-        console.log("Offline Fetch Success! Your page now works offline");
+      if (response) {
+        console.log("Offline Fetch Success");
         return response;
       }
-      return fetch(evt.request);
-    })
-  );
+      return fetch(event.request);
+    }
+  )
+);
 });
 
 self.addEventListener("activate", function(event) {
-  event.waitUntil(
-    caches.keys().then(function(cacheNames) {
-      return Promise.all(
-        cacheNames.map(function(cacheName) {
+  event.waitUntil(caches.keys().then(function(cacheNames) {
+      return Promise.all(cacheNames.map(function(cacheName) {
           if(cacheName !== CACHE_NAME && cacheName.indexOf(CACHE_TITLE) === 0) {
             return caches.delete(cacheName);
           }
