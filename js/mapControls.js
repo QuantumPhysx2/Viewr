@@ -1,3 +1,5 @@
+// Use this JS file for AmCharts-related functions
+
 // Source is provided by AmCharts.com
 var map = AmCharts.makeChart("chartdiv", {
   // All chart attributes are in JSON format

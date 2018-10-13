@@ -1,3 +1,5 @@
+// Use this JS file for self-made functions
+
 // Pop-up Information Box (Modal Box)
 // Set each variable to be Loosely Coupled so that future changes to object functions can be easily changed here
 var modal = [document.querySelector(".restaurantModal"),
@@ -69,4 +71,15 @@ document.onclick = function(evt) {
     modal[2].style.display = "none";
     modal[3].style.display = "none";
   }
+}
+
+/*Service Worker*/
+if ("serviceWorker" in navigator) {
+  document.addEventListener("load", function() {
+    navigator.serviceWorker.register("/js/sw.js").then(function(registration) {
+      console.log("Service Worker successful: ", registration.scope);
+    }, function(err) {
+      console.log("Service Worker failed", err);
+    })
+  })
 }
