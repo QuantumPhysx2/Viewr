@@ -72,14 +72,3 @@ document.onclick = function(evt) {
     modal[3].style.display = "none";
   }
 }
-
-/*Service Worker*/
-if ("serviceWorker" in navigator) {
-  document.addEventListener("load", function() {
-    navigator.serviceWorker.register("/js/sw.js").then(function(registration) {
-      console.log("Service Worker successful: ", registration.scope);
-    }, function(err) {
-      console.log("Service Worker failed", err);
-    })
-  })
-}
