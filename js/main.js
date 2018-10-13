@@ -79,7 +79,7 @@ if ("serviceWorker" in navigator) {
 	window.addEventListener("load", function() {
 		navigator.serviceWorker
     // Register the assigned file as the service worker file
-    .register("js/sw.js")
+    .register("sw.js")
     .then(function(registration) {
       // If correct, log the result as a success
 			console.log("[Service Worker] Success", registration.scope);
