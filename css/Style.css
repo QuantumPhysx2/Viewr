@@ -424,6 +424,7 @@ footer {
   .search-section input {
     width: 98.6%;
     height: 35px;
+    margin: 0px;
   }
 
   input[type=text] {
