@@ -141,15 +141,18 @@ path:hover {
 }
 
 #card {
-  height: 115px;
+  height: auto;
   margin: 0px 10px;
-  color: #fff;
-  background-color: #248dad;
-  border-radius: 1px;
+  color: #222;
+  background-color: #d5e7ff;
+}
+
+#card h1 {
+  font-size: 17px;
 }
 
 #card p {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 #card i {
@@ -315,6 +318,16 @@ footer {
     font-size: 16px;
   }
 
+  .gimp {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+  }
+
+  #card {
+    margin: 5px;
+    height: 85px;
+  }
+
   #chartdiv {
     height: 100%;
   }
@@ -378,6 +391,16 @@ footer {
 
   .container p {
     font-size: 14px;
+  }
+
+  .gimp {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+  }
+
+  #card {
+    margin: 5px;
+    height: 85px;
   }
 
   #chartdiv {
@@ -451,6 +474,16 @@ footer {
     font-size: 12px;
   }
 
+  .gimp {
+    grid-template-columns: 1fr;
+    padding: 5px;
+  }
+
+  #card {
+    margin: 5px;
+    height: 75px;
+  }
+
   #chartdiv {
     min-height: 320px;
     height: 100%;
@@ -518,6 +551,16 @@ footer {
 
   .container h1 {
     font-size: 18px;
+  }
+
+  .gimp {
+    grid-template-columns: 1fr;
+    padding: 5px;
+  }
+
+  #card {
+    margin: 5px;
+    height: 75px;
   }
 
   .container p {
