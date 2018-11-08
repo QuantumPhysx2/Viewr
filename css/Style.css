@@ -143,10 +143,27 @@ path:hover {
 #card {
   height: auto;
   margin: 0px 10px;
+  color: #fff;
+  background-color: #248dad;
+}
+
+.card-header {
+  margin: 12px;
+}
+
+.card-content {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+
+#card h1 {
+  margin-bottom: 4px;
+  font-size: 15px;
+  border-bottom: 1px solid #222;
 }
 
 #card p {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 #card i {
@@ -315,6 +332,7 @@ footer {
 
   #card {
     margin: 5px;
+    height: auto;
   }
 
   #chartdiv {
@@ -384,6 +402,16 @@ footer {
 
   .gimp {
     grid-template-columns: repeat(2, 1fr);
+    padding: 0px;
+  }
+
+  #card {
+    margin: 3px;
+    height: auto;
+  }
+
+  #card h1, #card p {
+    font-size: 14px;
   }
 
   #chartdiv {
@@ -457,6 +485,20 @@ footer {
     font-size: 12px;
   }
 
+  .gimp {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px;
+  }
+
+  #card {
+    margin: 3px;
+    height: auto;
+  }
+
+  #card h1, #card p {
+    font-size: 13px;
+  }
+
   #chartdiv {
     min-height: 320px;
     height: 100%;
@@ -527,6 +569,17 @@ footer {
   }
 
   .gimp {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px;
+  }
+
+  #card {
+    margin: 3px;
+    height: auto;
+  }
+
+  #card h1, #card p {
+    font-size: 11px;
   }
 
   .container p {
