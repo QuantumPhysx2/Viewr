@@ -1457,7 +1457,6 @@ map.addListener("clickMapObject", function(evt) {
   document.querySelector(".popularRestaurants3").innerHTML = "<p>" + evt.mapObject.restaurants[2] + "</p>";
 
   // Replace innerHTML with arrays[0-x] where x represents each iterable property
-  // Now find a way to put this in a loop
   document.querySelector(".popularHotels1").innerHTML = "<p>" + evt.mapObject.hotels[0] + "</p>";
   document.querySelector(".popularHotels2").innerHTML = "<p>" + evt.mapObject.hotels[1] + "</p>";
   document.querySelector(".popularHotels3").innerHTML = "<p>" + evt.mapObject.hotels[2] + "</p>";
@@ -1465,15 +1464,6 @@ map.addListener("clickMapObject", function(evt) {
   document.querySelector(".popularLandmarks1").innerHTML = "<p>" + evt.mapObject.landmarks[0] + "</p>";
   document.querySelector(".popularLandmarks2").innerHTML = "<p>" + evt.mapObject.landmarks[1] + "</p>";
   document.querySelector(".popularLandmarks3").innerHTML = "<p>" + evt.mapObject.landmarks[2] + "</p>";
-
-  // Refer to: https://stackoverflow.com/questions/4365246/how-to-change-href-of-a-tag-on-button-click-through-javascript
-
-  // Logic to flexibly add every tag in each modal
-  // Define a list variable (eg/ i = 0)
-  // For i = 0; i != x (where x is a set number); i++...
-  // ...document.querySelector("#.modal-body[list element]").innerHTML = "<li>" + evt.mapObject.restaurants[i] + "</li>"
-  // Note: will need to set it so that once var i reaches max, stop loop incase of accidental recursion
-  // Note: if going this path, CHANGE dataProvider PROPERTIES
 });
 
 var canvas;

@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   font-family: "Arial";
-  font-size: 21px;
+  font-size: 18px;
 }
 
 /*Page Header*/
@@ -34,7 +34,7 @@ header {
 
 /*Page Main*/
 body {
-  background-color: #222;
+  background-color: #353c4e;
 }
 
 main {
@@ -136,19 +136,13 @@ path:hover {
 .gimp {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: repeat(6, 1fr);
-  padding: 15px 0px;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 15px 0px 0px 0px;
 }
 
 #card {
   height: auto;
   margin: 0px 10px;
-  color: #222;
-  background-color: #d5e7ff;
-}
-
-#card h1 {
-  font-size: 17px;
 }
 
 #card p {
@@ -161,10 +155,6 @@ path:hover {
 
 #card > .card-content {
   padding: 7px
-}
-
-.card-header {
-  border-bottom: 1px solid #222;
 }
 
 /*Page Footer*/
@@ -186,9 +176,9 @@ footer {
 
 .top-menu #menuBtn {
   height: 60px;
-  background-color: #222;
+  background-color: #353c4e;
   color: #fff;
-  border: 1px solid #222;
+  border-top: 1px solid #fff;
   cursor: pointer;
 }
 
@@ -325,7 +315,6 @@ footer {
 
   #card {
     margin: 5px;
-    height: 85px;
   }
 
   #chartdiv {
@@ -376,13 +365,13 @@ footer {
 
   main {
     grid-template-rows: 1fr;
-    margin: 1px;
-    padding: 1px;
+    margin: 0px;
+    padding: 0px;
   }
 
   .container {
     height: 343px;
-    margin: 1px;
+    margin: 0px;
   }
 
   .container h1 {
@@ -395,12 +384,6 @@ footer {
 
   .gimp {
     grid-template-columns: repeat(2, 1fr);
-    padding: 5px;
-  }
-
-  #card {
-    margin: 5px;
-    height: 85px;
   }
 
   #chartdiv {
@@ -456,13 +439,13 @@ footer {
 
   main {
     grid-template-rows: 1fr;
-    margin: 1px;
-    padding: 1px;
+    margin: 0px;
+    padding: 0px;
   }
 
   .container {
     height: 345px;
-    margin: 1px;
+    margin: 0px;
     max-width: 100%;
   }
 
@@ -472,16 +455,6 @@ footer {
 
   .container p {
     font-size: 12px;
-  }
-
-  .gimp {
-    grid-template-columns: 1fr;
-    padding: 5px;
-  }
-
-  #card {
-    margin: 5px;
-    height: 75px;
   }
 
   #chartdiv {
@@ -540,13 +513,13 @@ footer {
 
   main {
     grid-template-rows: 1fr;
-    margin: 1px;
-    padding: 1px;
+    margin: 0px;
+    padding: 0px;
   }
 
   .container {
     height: 345px;
-    margin: 1px;
+    margin: 0px;
   }
 
   .container h1 {
@@ -554,13 +527,6 @@ footer {
   }
 
   .gimp {
-    grid-template-columns: 1fr;
-    padding: 5px;
-  }
-
-  #card {
-    margin: 5px;
-    height: 75px;
   }
 
   .container p {
